@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: fb6a7cf8152606e4fb63d81befa67100
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4645137866999415975
+    second: Dark Ruby sprite sheet_0
+  - first:
+      213: -2615161060580317719
+    second: Dark Ruby sprite sheet_1
+  - first:
+      213: 3731083997255361667
+    second: Dark Ruby sprite sheet_2
+  - first:
+      213: 3011880910578430206
+    second: Dark Ruby sprite sheet_3
+  - first:
+      213: 7885900859781506041
+    second: Dark Ruby sprite sheet_4
+  - first:
+      213: -9204926701455186318
+    second: Dark Ruby sprite sheet_5
+  - first:
+      213: 3648350835211520882
+    second: Dark Ruby sprite sheet_6
+  - first:
+      213: 7589461448352765973
+    second: Dark Ruby sprite sheet_7
+  - first:
+      213: -2465984704404828663
+    second: Dark Ruby sprite sheet_8
+  - first:
+      213: -4491869453797541291
+    second: Dark Ruby sprite sheet_9
+  - first:
+      213: 7870978863033847431
+    second: Dark Ruby sprite sheet_10
+  - first:
+      213: -7711489720402567698
+    second: Dark Ruby sprite sheet_11
+  - first:
+      213: 6694379097674574765
+    second: Dark Ruby sprite sheet_12
+  - first:
+      213: 3722295904576793640
+    second: Dark Ruby sprite sheet_13
+  - first:
+      213: 5855620140419031207
+    second: Dark Ruby sprite sheet_14
+  - first:
+      213: -1402574351473918997
+    second: Dark Ruby sprite sheet_15
+  - first:
+      213: 5911770525672810024
+    second: Dark Ruby sprite sheet_16
+  - first:
+      213: -699967819287749022
+    second: Dark Ruby sprite sheet_17
+  - first:
+      213: -2720302467829217405
+    second: Dark Ruby sprite sheet_18
+  - first:
+      213: 1678425776898314893
+    second: Dark Ruby sprite sheet_19
+  - first:
+      213: -3169627309820593284
+    second: Dark Ruby sprite sheet_20
+  - first:
+      213: -2011340099101411489
+    second: Dark Ruby sprite sheet_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bb8c098b7298fb0800000000000000
+      internalID: -4645137866999415975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e52da10fd415bbd0800000000000000
+      internalID: -2615161060580317719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384ec8b902977c330800000000000000
+      internalID: 3731083997255361667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0bec40bb95cc920800000000000000
+      internalID: 3011880910578430206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 64
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f36939fc09507d60800000000000000
+      internalID: 7885900859781506041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 64
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27661405fe7814080800000000000000
+      internalID: -9204926701455186318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 64
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b48cc31cb81a230800000000000000
+      internalID: 3648350835211520882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 64
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51896910afe235960800000000000000
+      internalID: 7589461448352765973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 64
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e47680aff07cdd0800000000000000
+      internalID: -2465984704404828663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 64
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a38fcd78ca9a1c0800000000000000
+      internalID: -4491869453797541291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 64
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e8dbdd2955b3d60800000000000000
+      internalID: 7870978863033847431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed145ed4f84bf490800000000000000
+      internalID: -7711489720402567698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab61bc225637ec50800000000000000
+      internalID: 6694379097674574765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce035576048a330800000000000000
+      internalID: 3722295904576793640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0ac494e77534150800000000000000
+      internalID: 5855620140419031207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb259fe0e098ce0800000000000000
+      internalID: -1402574351473918997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8262a50a8f3da0250800000000000000
+      internalID: 5911770525672810024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e16291af63946f0800000000000000
+      internalID: -699967819287749022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cb6b715b8f3ad0800000000000000
+      internalID: -2720302467829217405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8212e5f957fa4710800000000000000
+      internalID: 1678425776898314893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b34cf41c83304d0800000000000000
+      internalID: -3169627309820593284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Ruby sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57bf8e16d84614e0800000000000000
+      internalID: -2011340099101411489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

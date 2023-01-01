@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: d980d3e9053acd545a67480c706eb553
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6695667069690578158
+    second: Thunder dragon sprite sheet_0
+  - first:
+      213: -776099505435104325
+    second: Thunder dragon sprite sheet_1
+  - first:
+      213: 3215331823799241625
+    second: Thunder dragon sprite sheet_2
+  - first:
+      213: 4284381427419775106
+    second: Thunder dragon sprite sheet_3
+  - first:
+      213: 2451198101267677233
+    second: Thunder dragon sprite sheet_4
+  - first:
+      213: 5678270214061773499
+    second: Thunder dragon sprite sheet_5
+  - first:
+      213: 2256226138727733986
+    second: Thunder dragon sprite sheet_6
+  - first:
+      213: 817772628418450207
+    second: Thunder dragon sprite sheet_7
+  - first:
+      213: -9144998349359625328
+    second: Thunder dragon sprite sheet_8
+  - first:
+      213: -6608897348330447366
+    second: Thunder dragon sprite sheet_9
+  - first:
+      213: 1376853096294863036
+    second: Thunder dragon sprite sheet_10
+  - first:
+      213: -6169882640904235205
+    second: Thunder dragon sprite sheet_11
+  - first:
+      213: 2025488864473200406
+    second: Thunder dragon sprite sheet_12
+  - first:
+      213: -225577232922451459
+    second: Thunder dragon sprite sheet_13
+  - first:
+      213: -3499065876054967720
+    second: Thunder dragon sprite sheet_14
+  - first:
+      213: -8443837329320256799
+    second: Thunder dragon sprite sheet_15
+  - first:
+      213: 1789249309858204073
+    second: Thunder dragon sprite sheet_16
+  - first:
+      213: 3651498415108048031
+    second: Thunder dragon sprite sheet_17
+  - first:
+      213: -4401128774064939660
+    second: Thunder dragon sprite sheet_18
+  - first:
+      213: -6207964036695006781
+    second: Thunder dragon sprite sheet_19
+  - first:
+      213: 1580143410483536903
+    second: Thunder dragon sprite sheet_20
+  - first:
+      213: -5533619839659522976
+    second: Thunder dragon sprite sheet_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4003789b9cbec50800000000000000
+      internalID: 6695667069690578158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 70
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb2f2c9c9dba35f0800000000000000
+      internalID: -776099505435104325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 70
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b009812472f9c20800000000000000
+      internalID: 3215331823799241625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 70
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28003a7653e257b30800000000000000
+      internalID: 4284381427419775106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 70
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1300c24afa7640220800000000000000
+      internalID: 2451198101267677233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 70
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb255d7cca44dce40800000000000000
+      internalID: 5678270214061773499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 70
+        width: 93
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea51db18b9bf4f10800000000000000
+      internalID: 2256226138727733986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 70
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f135bef6fdf495b00800000000000000
+      internalID: 817772628418450207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 70
+        width: 93
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bc2ea1470761180800000000000000
+      internalID: -9144998349359625328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 70
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd1ebb80ea7844a0800000000000000
+      internalID: -6608897348330447366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 70
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb05d80a8909b1310800000000000000
+      internalID: 1376853096294863036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 60
+      alignment: 9
+      pivot: {x: 0.7, y: 0.49578226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37dd037d6c206aa0800000000000000
+      internalID: -6169882640904235205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 100
+        height: 59
+      alignment: 9
+      pivot: {x: 0.7, y: 0.50428903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6173f67046bfb1c10800000000000000
+      internalID: 2025488864473200406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 100
+        height: 58
+      alignment: 9
+      pivot: {x: 0.7, y: 0.50872606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ed3aa3b69edcf0800000000000000
+      internalID: -225577232922451459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 100
+        height: 57
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5044396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a7d04ef12d07fc0800000000000000
+      internalID: -3499065876054967720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eadea4bfa671da80800000000000000
+      internalID: -8443837329320256799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a906b874c0b4d810800000000000000
+      internalID: 1789249309858204073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 100
+        height: 57
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ca6a467abca230800000000000000
+      internalID: 3651498415108048031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 100
+        height: 57
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ddb1bb2bc0ce2c0800000000000000
+      internalID: -4401128774064939660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 100
+        height: 58
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1e46e8991e8d9a0800000000000000
+      internalID: -6207964036695006781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 100
+        height: 59
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ab045f0ccde510800000000000000
+      internalID: 1580143410483536903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thunder dragon sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 60
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0644a0ff212a433b0800000000000000
+      internalID: -5533619839659522976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

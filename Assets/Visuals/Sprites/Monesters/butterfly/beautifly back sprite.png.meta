@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 28e7f673142040f4cb5c80d4b5ab187f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4124413031621497032
+    second: beautifly back sprite_0
+  - first:
+      213: 5767813180137784489
+    second: beautifly back sprite_1
+  - first:
+      213: -920812513101690417
+    second: beautifly back sprite_2
+  - first:
+      213: -892342338381363606
+    second: beautifly back sprite_3
+  - first:
+      213: 1775694553807936257
+    second: beautifly back sprite_4
+  - first:
+      213: -4379309243681897571
+    second: beautifly back sprite_5
+  - first:
+      213: -1480328161070443161
+    second: beautifly back sprite_6
+  - first:
+      213: -6639781988801018950
+    second: beautifly back sprite_7
+  - first:
+      213: -4999766863663819850
+    second: beautifly back sprite_8
+  - first:
+      213: 6315497216782823437
+    second: beautifly back sprite_9
+  - first:
+      213: -7908236323510212974
+    second: beautifly back sprite_10
+  - first:
+      213: 8536303449155332371
+    second: beautifly back sprite_11
+  - first:
+      213: 7858823186155057550
+    second: beautifly back sprite_12
+  - first:
+      213: -7404959841291250159
+    second: beautifly back sprite_13
+  - first:
+      213: -4926585416611585653
+    second: beautifly back sprite_14
+  - first:
+      213: 9171051600120012950
+    second: beautifly back sprite_15
+  - first:
+      213: 7084175917854032244
+    second: beautifly back sprite_16
+  - first:
+      213: 1741042161715341674
+    second: beautifly back sprite_17
+  - first:
+      213: 4575444272106663424
+    second: beautifly back sprite_18
+  - first:
+      213: -4916679816466532182
+    second: beautifly back sprite_19
+  - first:
+      213: 825919784570827206
+    second: beautifly back sprite_20
+  - first:
+      213: -755688193390173364
+    second: beautifly back sprite_21
+  - first:
+      213: 2243059920352360872
+    second: beautifly back sprite_22
+  - first:
+      213: -7350457140358904915
+    second: beautifly back sprite_23
+  - first:
+      213: 8011148286769781408
+    second: beautifly back sprite_24
+  - first:
+      213: 787584130900122402
+    second: beautifly back sprite_25
+  - first:
+      213: -3412392244080373262
+    second: beautifly back sprite_26
+  - first:
+      213: 3456600439337377648
+    second: beautifly back sprite_27
+  - first:
+      213: -7253985721811793598
+    second: beautifly back sprite_28
+  - first:
+      213: 5205519864864467373
+    second: beautifly back sprite_29
+  - first:
+      213: -1502941054712496763
+    second: beautifly back sprite_30
+  - first:
+      213: -1068399205850645038
+    second: beautifly back sprite_31
+  - first:
+      213: -8454026016506587860
+    second: beautifly back sprite_32
+  - first:
+      213: -3518507596930819246
+    second: beautifly back sprite_33
+  - first:
+      213: -6633092848859182311
+    second: beautifly back sprite_34
+  - first:
+      213: -1269162627925982755
+    second: beautifly back sprite_35
+  - first:
+      213: 8423976599948132783
+    second: beautifly back sprite_36
+  - first:
+      213: -3599302831685159653
+    second: beautifly back sprite_37
+  - first:
+      213: -3956987484232960467
+    second: beautifly back sprite_38
+  - first:
+      213: 2581765715635704405
+    second: beautifly back sprite_39
+  - first:
+      213: 3064381070020754465
+    second: beautifly back sprite_40
+  - first:
+      213: 5926123647963114925
+    second: beautifly back sprite_41
+  - first:
+      213: -5113950160427310874
+    second: beautifly back sprite_42
+  - first:
+      213: -2834150347607835232
+    second: beautifly back sprite_43
+  - first:
+      213: 725550310983382981
+    second: beautifly back sprite_44
+  - first:
+      213: -512811569839228862
+    second: beautifly back sprite_45
+  - first:
+      213: -8538837184225336386
+    second: beautifly back sprite_46
+  - first:
+      213: -2481575646242586478
+    second: beautifly back sprite_47
+  - first:
+      213: -1248281375461344083
+    second: beautifly back sprite_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beautifly back sprite_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 471
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c09ac8dccbdc3930800000000000000
+      internalID: 4124413031621497032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 472
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4cde437836b0050800000000000000
+      internalID: 5767813180137784489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 472
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c6d3e5ed9833f0800000000000000
+      internalID: -920812513101690417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 473
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66ccbefe53cd93f0800000000000000
+      internalID: -892342338381363606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_4
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 473
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b5155e9c884a810800000000000000
+      internalID: 1775694553807936257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 474
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9381c802719933c0800000000000000
+      internalID: -4379309243681897571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 474
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76593607161d47be0800000000000000
+      internalID: -1480328161070443161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_7
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 473
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38a73d571cad3a0800000000000000
+      internalID: -6639781988801018950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 396
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39c8307824d9ab0800000000000000
+      internalID: -4999766863663819850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 395
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00fe4af14725a750800000000000000
+      internalID: 6315497216782823437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 395
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2962551a6fc404290800000000000000
+      internalID: -7908236323510212974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 396
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31968dd72ca077670800000000000000
+      internalID: 8536303449155332371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 396
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81306bcc06201d60800000000000000
+      internalID: 7858823186155057550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_13
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 397
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165dcbe14c4c3990800000000000000
+      internalID: -7404959841291250159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 397
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812f3f6aa041abb0800000000000000
+      internalID: -4926585416611585653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_15
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 398
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6906ee907de164f70800000000000000
+      internalID: 9171051600120012950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 322
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4710116b67c005260800000000000000
+      internalID: 7084175917854032244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 322
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6965042f9c692810800000000000000
+      internalID: 1741042161715341674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 321
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e6380e25e3f7f30800000000000000
+      internalID: 4575444272106663424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8fd21b1c174cbb0800000000000000
+      internalID: -4916679816466532182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 320
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1bf4c0ba1467b00800000000000000
+      internalID: 825919784570827206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_21
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 319
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43a50887914385f0800000000000000
+      internalID: -755688193390173364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 319
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9b4820d13f02f10800000000000000
+      internalID: 2243059920352360872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_23
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 318
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38c2cdc2eedf990800000000000000
+      internalID: -7350457140358904915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 240
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa54e30ce05d2f60800000000000000
+      internalID: 8011148286769781408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 240
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b5901289f0eea00800000000000000
+      internalID: 787584130900122402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 240
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f19a49655fb4a0d0800000000000000
+      internalID: -3412392244080373262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 241
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd92529cf48ff20800000000000000
+      internalID: 3456600439337377648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_28
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 241
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24907a55b6aa45b90800000000000000
+      internalID: -7253985721811793598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_29
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 241
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da96c70bcb8bd3840800000000000000
+      internalID: 5205519864864467373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_30
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 242
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58db28bd21b742be0800000000000000
+      internalID: -1502941054712496763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_31
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 241
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd76f835984c21f0800000000000000
+      internalID: -1068399205850645038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 164
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25d63c11244daa80800000000000000
+      internalID: -8454026016506587860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_33
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 164
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bdc618bffbb2fc0800000000000000
+      internalID: -3518507596930819246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 163
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8095923582f3a0800000000000000
+      internalID: -6633092848859182311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 163
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd145407057036ee0800000000000000
+      internalID: -1269162627925982755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_36
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 163
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa18c14e51af7e470800000000000000
+      internalID: 8423976599948132783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_37
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 163
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15395ef425bc0ec0800000000000000
+      internalID: -3599302831685159653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_38
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 163
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b0ad19d4f519c0800000000000000
+      internalID: -3956987484232960467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_39
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 164
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5529fb55d3644d320800000000000000
+      internalID: 2581765715635704405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cb40fe85ed68a20800000000000000
+      internalID: 3064381070020754465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad22e35f02dd3250800000000000000
+      internalID: 5926123647963114925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 89
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0ada88c699709b0800000000000000
+      internalID: -5113950160427310874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 88
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adf8ca56431ba8d0800000000000000
+      internalID: -2834150347607835232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_44
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 88
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b6d8e92ca11a00800000000000000
+      internalID: 725550310983382981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_45
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 87
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248b50f189022e8f0800000000000000
+      internalID: -512811569839228862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_46
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 87
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb32a5752d4ff7980800000000000000
+      internalID: -8538837184225336386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_47
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 86
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2904372091caf8dd0800000000000000
+      internalID: -2481575646242586478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beautifly back sprite_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 9
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf3e3e3b63daee0800000000000000
+      internalID: -1248281375461344083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

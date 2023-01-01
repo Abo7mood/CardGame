@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 2f1e1fb702c8a8d46a2d2b0b544760a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2027306137954074212
+    second: Green dragon animation sprite sheet_0
+  - first:
+      213: 6509134575632712439
+    second: Green dragon animation sprite sheet_1
+  - first:
+      213: -9167815740230897428
+    second: Green dragon animation sprite sheet_2
+  - first:
+      213: 7164048512787532839
+    second: Green dragon animation sprite sheet_3
+  - first:
+      213: 6589075088789027171
+    second: Green dragon animation sprite sheet_4
+  - first:
+      213: 3411623283397750435
+    second: Green dragon animation sprite sheet_5
+  - first:
+      213: 1798294662156728958
+    second: Green dragon animation sprite sheet_6
+  - first:
+      213: -7787548141193480344
+    second: Green dragon animation sprite sheet_7
+  - first:
+      213: 915782028657695639
+    second: Green dragon animation sprite sheet_8
+  - first:
+      213: 1815269231002152976
+    second: Green dragon animation sprite sheet_9
+  - first:
+      213: 1531185117313699381
+    second: Green dragon animation sprite sheet_10
+  - first:
+      213: -5008213263811015054
+    second: Green dragon animation sprite sheet_11
+  - first:
+      213: 2106878341137187825
+    second: Green dragon animation sprite sheet_12
+  - first:
+      213: 1555195549269222366
+    second: Green dragon animation sprite sheet_13
+  - first:
+      213: -7695561313268647113
+    second: Green dragon animation sprite sheet_14
+  - first:
+      213: -5021980125041059194
+    second: Green dragon animation sprite sheet_15
+  - first:
+      213: -1343052707576584434
+    second: Green dragon animation sprite sheet_16
+  - first:
+      213: -4812506106807847677
+    second: Green dragon animation sprite sheet_17
+  - first:
+      213: -3473019588127722379
+    second: Green dragon animation sprite sheet_18
+  - first:
+      213: -6997017761765895110
+    second: Green dragon animation sprite sheet_19
+  - first:
+      213: -1698250648768697087
+    second: Green dragon animation sprite sheet_20
+  - first:
+      213: -5812917477805226146
+    second: Green dragon animation sprite sheet_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9147440fcf8dd3e0800000000000000
+      internalID: -2027306137954074212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 107
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f20dcfd867155a50800000000000000
+      internalID: 6509134575632712439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 107
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce07d4d482065c080800000000000000
+      internalID: -9167815740230897428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 107
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ccd566a20db6360800000000000000
+      internalID: 7164048512787532839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 107
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36935a102e8117b50800000000000000
+      internalID: 6589075088789027171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 107
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeef5afc45885f20800000000000000
+      internalID: 3411623283397750435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 107
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a355ba773d4f810800000000000000
+      internalID: 1798294662156728958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 107
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867b8ecc9321de390800000000000000
+      internalID: -7787548141193480344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 107
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b14dd27e285bc00800000000000000
+      internalID: 915782028657695639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 107
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01074957fb1213910800000000000000
+      internalID: 1815269231002152976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 107
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e09da60ccdf3510800000000000000
+      internalID: 1531185117313699381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e052b32904f7ab0800000000000000
+      internalID: -5008213263811015054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3427440b22d3d10800000000000000
+      internalID: 2106878341137187825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3e57ebc1a259510800000000000000
+      internalID: 1555195549269222366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b326722cfd33590800000000000000
+      internalID: -7695561313268647113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a1bd11fa75e4ab0800000000000000
+      internalID: -5021980125041059194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e076542ada48c5de0800000000000000
+      internalID: -1343052707576584434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305f150913b863db0800000000000000
+      internalID: -4812506106807847677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747cafd51b5dcfc0800000000000000
+      internalID: -3473019588127722379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 3
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3458deda6995ee90800000000000000
+      internalID: -6997017761765895110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 4
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da09c580a9e68e0800000000000000
+      internalID: -1698250648768697087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green dragon animation sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 4
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5782c22a5e545fa0800000000000000
+      internalID: -5812917477805226146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

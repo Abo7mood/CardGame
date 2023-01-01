@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: e8e49ca87d072374b8d9c659b301febd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5388944306997550611
+    second: Mikhail dragon sprite sheet_0
+  - first:
+      213: 6682005283774116924
+    second: Mikhail dragon sprite sheet_1
+  - first:
+      213: 6644917110718564231
+    second: Mikhail dragon sprite sheet_2
+  - first:
+      213: 1124359778757816060
+    second: Mikhail dragon sprite sheet_3
+  - first:
+      213: -7743629706997638646
+    second: Mikhail dragon sprite sheet_4
+  - first:
+      213: -691511242987057983
+    second: Mikhail dragon sprite sheet_5
+  - first:
+      213: -4422692543903983576
+    second: Mikhail dragon sprite sheet_6
+  - first:
+      213: 3568057651767205153
+    second: Mikhail dragon sprite sheet_7
+  - first:
+      213: -8159256402777388779
+    second: Mikhail dragon sprite sheet_8
+  - first:
+      213: 8519911304215453796
+    second: Mikhail dragon sprite sheet_9
+  - first:
+      213: -6901550173029541084
+    second: Mikhail dragon sprite sheet_10
+  - first:
+      213: -3646238490622786761
+    second: Mikhail dragon sprite sheet_11
+  - first:
+      213: -55993946481385221
+    second: Mikhail dragon sprite sheet_12
+  - first:
+      213: 1278011547510583343
+    second: Mikhail dragon sprite sheet_13
+  - first:
+      213: 7618447622514256972
+    second: Mikhail dragon sprite sheet_14
+  - first:
+      213: -7939107275760624550
+    second: Mikhail dragon sprite sheet_15
+  - first:
+      213: -3674804610617124274
+    second: Mikhail dragon sprite sheet_16
+  - first:
+      213: -4348142792998482674
+    second: Mikhail dragon sprite sheet_17
+  - first:
+      213: -9039906356235184740
+    second: Mikhail dragon sprite sheet_18
+  - first:
+      213: -1590446089279990315
+    second: Mikhail dragon sprite sheet_19
+  - first:
+      213: 1651890901690025210
+    second: Mikhail dragon sprite sheet_20
+  - first:
+      213: 5718700737122955296
+    second: Mikhail dragon sprite sheet_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed3fc9b4069ca40800000000000000
+      internalID: 5388944306997550611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 96
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b3ae17604bbc50800000000000000
+      internalID: 6682005283774116924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 96
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7878b4ae7ec773c50800000000000000
+      internalID: 6644917110718564231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 96
+        width: 94
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea89cf2478a9f00800000000000000
+      internalID: 1124359778757816060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 96
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a5e3a1fc9198490800000000000000
+      internalID: -7743629706997638646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 95
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc419330324766f0800000000000000
+      internalID: -691511242987057983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 96
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82895d150907f92c0800000000000000
+      internalID: -4422692543903983576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 96
+        width: 94
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dd2b7a789448130800000000000000
+      internalID: 3568057651767205153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 96
+        width: 94
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5194f11088f74ce80800000000000000
+      internalID: -8159256402777388779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 96
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e895d03ecc3670800000000000000
+      internalID: 8519911304215453796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 96
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd9010fa4c830a0800000000000000
+      internalID: -6901550173029541084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73382105965f56dc0800000000000000
+      internalID: -3646238490622786761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a7666dc1193ff0800000000000000
+      internalID: -55993946481385221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2037343bb86cb110800000000000000
+      internalID: 1278011547510583343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca1e79fb92ab960800000000000000
+      internalID: 7618447622514256972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9192feff92d190800000000000000
+      internalID: -7939107275760624550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ad2353da8700dc0800000000000000
+      internalID: -3674804610617124274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d86aeca2b48a3c0800000000000000
+      internalID: -4348142792998482674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c955ec1801dcb8280800000000000000
+      internalID: -9039906356235184740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 3
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d59e0655b99de9e0800000000000000
+      internalID: -1590446089279990315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 3
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af40fe2e502bce610800000000000000
+      internalID: 1651890901690025210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mikhail dragon sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 4
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0207afc7508ec5f40800000000000000
+      internalID: 5718700737122955296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
