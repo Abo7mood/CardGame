@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void CreateCard() => cards.CreateCard();
-    public void CreateMonster(ref Transform transform, ref MonsterObject card,int Count,ref CardSlot slot) => monsters.CreateMonster(ref transform,ref card,Count,ref slot);
+    public void CreateMonster(ref Transform transform, ref MonsterObject card,int Count, ref CardHandler handler, ref CardSlot slot) => monsters.CreateMonster(ref transform,ref card,Count,ref handler,ref slot);
 }
 class cards :GameManager
 {
@@ -92,12 +92,12 @@ class cards :GameManager
 }
 class MonsterChild : GameManager
 {
-    public new void CreateMonster(ref Transform parent,ref MonsterObject card, int Count,ref CardSlot slot)
+    public new void CreateMonster(ref Transform parent,ref MonsterObject card, int Count,ref CardHandler handler,ref CardSlot slot)
     {
         GameObject newMonster = Instantiate(instance.monsterPrefab, parent.position, Quaternion.identity, monsterParent);//create object 
         newMonster.GetComponent<Monster>().data = card; // the monster card depend on the card data 
         newMonster.GetComponent<Monster>().MonsterCount = Count;// the monster Count depend on the card Count 
         instance.monstersChildren.Add(newMonster.GetComponent<Monster>()); // add the monster to 
-        slot.monster = newMonster;
+        handler.monster = newMonster;
     }
 }

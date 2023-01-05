@@ -19,7 +19,7 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     
     public int MonsterCount;// what is the monster count for this field 
 
-
+    CardHandler draggableItem;
     private void Awake()
     {
         image = GetComponent<Image>();
@@ -38,10 +38,23 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     public void OnDrop(PointerEventData eventData)
     {  
         GameObject dropped = eventData.pointerDrag;
-        CardSlot draggableItem = dropped.GetComponent<CardSlot>();
-        if(draggableItem!=null)
+         draggableItem = dropped.GetComponent<CardHandler>();
+        if (draggableItem == null) return;
         draggableItem.parentAfterDrag = transform;
-    }
 
+        if (isLeader&& transform.childCount<=0)
+        {
+            StartCoroutine(LeaderBehaviour(0.05f));
+
+        }
+    }
+    IEnumerator LeaderBehaviour(float time)
+    {
+        yield return new WaitForSeconds(time);
+        draggableItem.GetComponent<CardHandler>().OnBeingDrag -= draggableItem.GetComponent<CardHandler>().BeingDrag;
+        draggableItem.GetComponent<CardHandler>().OnDragDelegate -= draggableItem.GetComponent<CardHandler>().Drag;
+        draggableItem.GetComponent<CardHandler>().OnEndDrag -= draggableItem.GetComponent<CardHandler>().EndDrag;
+        draggableItem.GetComponent<Card>().isFieldLeader = true;
+    }
   
 }

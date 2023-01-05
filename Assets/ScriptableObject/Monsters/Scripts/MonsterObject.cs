@@ -18,4 +18,6 @@ public class MonsterObject : ScriptableObject
     public AnimationClip clip;
 
     public Sprite cardImage;
+
+    public bool isLeader=false;
 }

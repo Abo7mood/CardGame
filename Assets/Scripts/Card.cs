@@ -16,6 +16,9 @@ public class Card : MonoBehaviour
 
     private MonsterObject monsterData; // the monster data
 
+    public bool isLeader { get; set; } = false;
+    public bool isFieldLeader { get; set; } = false;
+
     private void Awake()
     {
         image = GetComponent<Image>();
