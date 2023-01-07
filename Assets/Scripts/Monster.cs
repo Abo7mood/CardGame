@@ -61,7 +61,7 @@ public class Monster : MonoBehaviour
         textMesh.text = $"{heal}/{heal}";
         monsterAnimator.transform.localPosition = spritePos;
         canvas.anchoredPosition = canvasPos;
-
+        transform.localScale = new Vector3(1, 1, 1);
         if(!isEnemy) textMesh.text = string.Empty;
     }
     private void SetAnimationController(ref AnimationClip clip)

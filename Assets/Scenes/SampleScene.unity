@@ -437,7 +437,10 @@ MonoBehaviour:
   cardPrefab: {fileID: 2348748750214563572, guid: a56edcc39a69a594fb7b71d54b1679b4, type: 3}
   cardTXT: {fileID: 1614330516}
   cardParent: {fileID: 617814416}
-  monsterParent: {fileID: 1422942731}
+  monsterParents:
+  - {fileID: 653408118}
+  - {fileID: 1283419360}
+  - {fileID: 308273625}
 --- !u!4 &106659822
 Transform:
   m_ObjectHideFlags: 0
@@ -966,6 +969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 964928358973ee5409d201cf8f95012f, type: 3}
+--- !u!4 &308273625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4156554785428491971, guid: a035d877664b4054eb5bb88615742377, type: 3}
+  m_PrefabInstance: {fileID: 1708624456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &495059186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1113,6 +1121,10 @@ PrefabInstance:
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: isFront
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
+      propertyPath: slotPos
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: cardTransform
@@ -1421,6 +1433,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df9b993af6f4734c92885bb440d56c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &653408118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4156554785428491971, guid: a035d877664b4054eb5bb88615742377, type: 3}
+  m_PrefabInstance: {fileID: 1225737685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &715279676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2330,9 +2347,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422942731}
     m_Modifications:
+    - target: {fileID: 284699888672190654, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 284699888672190654, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 3924229185053528041, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_Name
       value: MonsterField (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924229185053528041, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_RootOrder
@@ -2340,11 +2369,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2386,6 +2415,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8927032222631855203, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927032222631855203, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a035d877664b4054eb5bb88615742377, type: 3}
 --- !u!4 &1093725171 stripped
@@ -2422,6 +2459,10 @@ PrefabInstance:
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: isFront
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
+      propertyPath: MonsterCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6763638424236021604, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: m_Pivot.x
@@ -2690,9 +2731,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422942731}
     m_Modifications:
+    - target: {fileID: 284699888672190654, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 3924229185053528041, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_Name
       value: MonsterField
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924229185053528041, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_RootOrder
@@ -2704,7 +2753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2745,6 +2794,10 @@ PrefabInstance:
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927032222631855203, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a035d877664b4054eb5bb88615742377, type: 3}
@@ -2848,6 +2901,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
   m_PrefabInstance: {fileID: 1235189080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283419360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4156554785428491971, guid: a035d877664b4054eb5bb88615742377, type: 3}
+  m_PrefabInstance: {fileID: 1093725170}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1295279963 stripped
 GameObject:
@@ -3096,6 +3154,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: isFront
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
+      propertyPath: slotPos
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
@@ -3448,6 +3510,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422942731}
     m_Modifications:
+    - target: {fileID: 284699888672190654, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 284699888672190654, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3924229185053528041, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_Name
       value: MonsterField (2)
@@ -3455,6 +3525,14 @@ PrefabInstance:
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3495,6 +3573,14 @@ PrefabInstance:
     - target: {fileID: 5135411471307722954, guid: a035d877664b4054eb5bb88615742377, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927032222631855203, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927032222631855203, guid: a035d877664b4054eb5bb88615742377, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.575
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a035d877664b4054eb5bb88615742377, type: 3}
@@ -3648,6 +3734,10 @@ PrefabInstance:
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: isLeader
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
+      propertyPath: MonsterCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6763638424236021604, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: m_Pivot.x
@@ -3948,6 +4038,10 @@ PrefabInstance:
     - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: isFront
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953412747590125655, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
+      propertyPath: MonsterCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6763638424236021604, guid: 7d18f508a3826c344ad9cbc912af6641, type: 3}
       propertyPath: m_Pivot.x

@@ -5,6 +5,9 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class CardHolderSlot : MonoBehaviour,IDropHandler
 {
+    [Header("Data")]
+    public int slotPos;
+    [Space(15)]
     public Sprite leaderImage; // the image for the leader , so we can change it from the script 
     private GridLayoutGroup grid;
     #region booleans
@@ -20,6 +23,8 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     public int MonsterCount;// what is the monster count for this field 
 
     CardHandler draggableItem;
+
+    GameObject dropped;
     private void Awake()
     {
         image = GetComponent<Image>();
@@ -35,12 +40,15 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
             Destroy(this);
         }
     }
+  
     public void OnDrop(PointerEventData eventData)
     {  
-        GameObject dropped = eventData.pointerDrag;
+         dropped = eventData.pointerDrag;
          draggableItem = dropped.GetComponent<CardHandler>();
         if (draggableItem == null) return;
         draggableItem.parentAfterDrag = transform;
+        draggableItem.slotPos = slotPos;
+        
 
         if (isLeader&& transform.childCount<=0)
         {
@@ -51,10 +59,11 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     IEnumerator LeaderBehaviour(float time)
     {
         yield return new WaitForSeconds(time);
-        draggableItem.GetComponent<CardHandler>().OnBeingDrag -= draggableItem.GetComponent<CardHandler>().BeingDrag;
-        draggableItem.GetComponent<CardHandler>().OnDragDelegate -= draggableItem.GetComponent<CardHandler>().Drag;
-        draggableItem.GetComponent<CardHandler>().OnEndDrag -= draggableItem.GetComponent<CardHandler>().EndDrag;
-        draggableItem.GetComponent<Card>().isFieldLeader = true;
+        draggableItem.OnBeingDrag -= draggableItem.GetComponent<CardHandler>().BeingDrag;
+        draggableItem.OnDragDelegate -= draggableItem.GetComponent<CardHandler>().Drag;
+        draggableItem.OnEndDrag -= draggableItem.GetComponent<CardHandler>().EndDrag;
+        draggableItem.gameObject.GetComponent<Card>().isFieldLeader = true;
+
     }
-  
+
 }

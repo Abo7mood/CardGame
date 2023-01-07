@@ -19,7 +19,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI cardTXT; //card text like 33
     [Space(5)]
     public Transform cardParent; // the card parent , where should the card instintinate inside 
-    public Transform monsterParent;// the monsterParent , where should the monster instintinate inside 
+    public Transform[] monsterParents;// the monsterParent , where should the monster instintinate inside 
+    public Transform[] hideParents;// the hideParents , where we can hide the monsters so no one can see the monster
 
 
     #endregion
@@ -54,7 +55,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void CreateCard() => cards.CreateCard();
-    public void CreateMonster(ref Transform transform, ref MonsterObject card,int Count, ref CardHandler handler, ref CardSlot slot) => monsters.CreateMonster(ref transform,ref card,Count,ref handler,ref slot);
+    public void CreateMonster(ref Transform transform, ref MonsterObject card,int Count, ref CardHandler handler, ref CardSlot slot, int slotPos) => monsters.CreateMonster(ref transform,ref card,Count,ref handler,ref slot,slotPos);
 }
 class cards :GameManager
 {
@@ -92,9 +93,11 @@ class cards :GameManager
 }
 class MonsterChild : GameManager
 {
-    public new void CreateMonster(ref Transform parent,ref MonsterObject card, int Count,ref CardHandler handler,ref CardSlot slot)
+    public new void CreateMonster(ref Transform parent,ref MonsterObject card, int Count,ref CardHandler handler,ref CardSlot slot,int slotPos)
     {
-        GameObject newMonster = Instantiate(instance.monsterPrefab, parent.position, Quaternion.identity, monsterParent);//create object 
+       
+
+        GameObject newMonster = Instantiate(instance.monsterPrefab, parent.position, Quaternion.identity, instance.monsterParents[slotPos]);//create object 
         newMonster.GetComponent<Monster>().data = card; // the monster card depend on the card data 
         newMonster.GetComponent<Monster>().MonsterCount = Count;// the monster Count depend on the card Count 
         instance.monstersChildren.Add(newMonster.GetComponent<Monster>()); // add the monster to 
