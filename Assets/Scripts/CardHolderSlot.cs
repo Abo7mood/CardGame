@@ -48,7 +48,7 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
         if (draggableItem == null) return;
         draggableItem.parentAfterDrag = transform;
         draggableItem.slotPos = slotPos;
-        
+        draggableItem.cardHolderSlotAfter = this;
 
         if (isLeader&& transform.childCount<=0)
         {

@@ -20,6 +20,7 @@ public class CardHandler : MonoBehaviour
     private EventHandler setPreviousParentHandler;
     private EventHandler swapHandler;
     private EventHandler deleteMonsterHandler;
+    private EventHandler switcherHandler;
 
     #endregion
     #region Components
@@ -32,10 +33,12 @@ public class CardHandler : MonoBehaviour
 
     CardSlot thisSlot; // pass our cardslot to the gamemanager idea
     CardHandler thisHandler;
-    CardHolderSlot cardHolderSlot;
+    CardHolderSlot cardHolderSlotBefore;
+  [HideInInspector] public CardHolderSlot cardHolderSlotAfter;
+
     #endregion
     #region vectors
-    
+
 
     #endregion
 
@@ -76,8 +79,8 @@ public class CardHandler : MonoBehaviour
     {
         if (transform.parent.GetComponent<CardHolderSlot>() != null)
         {
-            cardHolderSlot = transform.parent.GetComponent<CardHolderSlot>();
-            previousSlotPos = cardHolderSlot.slotPos;
+            cardHolderSlotBefore = transform.parent.GetComponent<CardHolderSlot>();
+            previousSlotPos = cardHolderSlotBefore.slotPos;
 
         }
 
@@ -103,7 +106,11 @@ public class CardHandler : MonoBehaviour
 
     public void Action()
     {
+
+
         stopHandler?.Invoke(this, EventArgs.Empty);
+
+        switcherHandler?.Invoke(this, EventArgs.Empty);
 
         swapHandler?.Invoke(this, EventArgs.Empty);
 
@@ -120,9 +127,11 @@ public class CardHandler : MonoBehaviour
 
     }
     private void Stop(object sender, EventArgs e)
-    {if(Situation0())
+    {if (!Situation0()) return;
         deleteMonsterHandler -= DeleteMonster;
+        Debug.LogError("H");
     }
+   
     private void SetParent(object sender, EventArgs e)
     {
         if (!Situation1()) return;
@@ -134,6 +143,8 @@ public class CardHandler : MonoBehaviour
     {
         if (Situation2(slotPos))
             CreateMonster(parentAfterDrag, transform);
+        
+
     }
 
     private void SetPreviousParent(object sender, EventArgs e)
@@ -156,17 +167,22 @@ public class CardHandler : MonoBehaviour
     {
 
         if (Situation5() || Situation6())
-            DeleteMonster();
+            DeleteMonster(monster);
+    }
+    private void Switcher(object sender, EventArgs e)
+    {
+       
     }
     #region Booleans1
-    private bool Situation0() => previousSlotPos == slotPos;
-
+    private bool Situation0() => cardHolderSlotBefore == cardHolderSlotAfter;
     private bool Situation1() => !IsFull(parentAfterDrag);
     private bool Situation2(int index) => IsFront(parentAfterDrag) && !IsFull(parentAfterDrag) && GameManager.instance.monsterParents[index].transform.childCount <= 0;
     private bool Situation3() => IsLeader(parentAfterDrag) && IsFull(parentAfterDrag);
     private bool Situation4() => IsFull(parentAfterDrag) && !IsLeader(parentAfterDrag) && IsSlot(parentAfterDrag);
     private bool Situation5() => !IsFull(previousParent) && !IsFull(parentAfterDrag);
     private bool Situation6() => !IsFront(parentAfterDrag);
+    private bool Situation7(Transform parent) => IsFront(parent);
+
     #endregion
 
     #region Booleans2
@@ -192,8 +208,6 @@ public class CardHandler : MonoBehaviour
     {
         if (flag) return;
 
-
-
         temp1 = previousParent;
         transform.SetParent(parentAfterDrag);
         parentAfterDrag.GetChild(0).transform.SetParent(temp1);
@@ -208,7 +222,6 @@ public class CardHandler : MonoBehaviour
         if (flag) return;
 
 
-
         if (previousParent.GetChild(0).transform.GetComponent<CardHandler>().monster != null)
         {
             previousParent.GetChild(0).transform.GetComponent<CardHandler>().monster.transform.SetParent(GameManager.instance.monsterParents[transform.GetComponent<CardHandler>().previousSlotPos]);
@@ -221,8 +234,6 @@ public class CardHandler : MonoBehaviour
 
         }
 
-
-
         flag = true;
     }
     public void CreateMonster(Transform parent, Transform data)
@@ -230,9 +241,8 @@ public class CardHandler : MonoBehaviour
         GameManager.instance.CreateMonster(ref parent.GetComponent<CardHolderSlot>().cardTransform,
                 ref data.GetComponent<Card>().data, parent.GetComponent<CardHolderSlot>().MonsterCount, ref thisHandler, ref thisSlot, slotPos); //create monster , what can I said
     }
-    private void DeleteMonster()
+    private void DeleteMonster(GameObject monster)
     {
-        Debug.Log("X");
         if (monster == null) return;
         Destroy(monster.gameObject);
     }
@@ -244,6 +254,7 @@ public class CardHandler : MonoBehaviour
         setPreviousParentHandler += SetPreviousParent;
         swapHandler += Swap;
         deleteMonsterHandler += DeleteMonster;
+        switcherHandler += Switcher;
         flag = false;
     }
     #endregion
