@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4d5a7939c7bd4498e8d51f9fec66d5, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  name: Ruby
+  name: Mikhali
   pos: {x: 0, y: 0, z: 0}
   canvasPos: {x: 0, y: 2.3, z: 0}
   spritePos: {x: 0.4, y: 1, z: 0}
   heal: 0
   clip: {fileID: 7400000, guid: c2080082a09dd8c43abbb8ad88a6d2f5, type: 2}
   cardImage: {fileID: 21300000, guid: 0575598a1bb39764f86bca941235901f, type: 3}
+  isLeader: 0

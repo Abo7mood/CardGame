@@ -69,7 +69,7 @@ TextureImporter:
       213: 5718700737122955296
     second: Mikhail dragon sprite sheet_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mikhail dragon sprite sheet_11: -3646238490622786761
+      Mikhail dragon sprite sheet_7: 3568057651767205153
+      Mikhail dragon sprite sheet_2: 6644917110718564231
+      Mikhail dragon sprite sheet_12: -55993946481385221
+      Mikhail dragon sprite sheet_5: -691511242987057983
+      Mikhail dragon sprite sheet_3: 1124359778757816060
+      Mikhail dragon sprite sheet_10: -6901550173029541084
+      Mikhail dragon sprite sheet_15: -7939107275760624550
+      Mikhail dragon sprite sheet_9: 8519911304215453796
+      Mikhail dragon sprite sheet_21: 5718700737122955296
+      Mikhail dragon sprite sheet_1: 6682005283774116924
+      Mikhail dragon sprite sheet_6: -4422692543903983576
+      Mikhail dragon sprite sheet_0: 5388944306997550611
+      Mikhail dragon sprite sheet_4: -7743629706997638646
+      Mikhail dragon sprite sheet_18: -9039906356235184740
+      Mikhail dragon sprite sheet_16: -3674804610617124274
+      Mikhail dragon sprite sheet_19: -1590446089279990315
+      Mikhail dragon sprite sheet_20: 1651890901690025210
+      Mikhail dragon sprite sheet_14: 7618447622514256972
+      Mikhail dragon sprite sheet_13: 1278011547510583343
+      Mikhail dragon sprite sheet_17: -4348142792998482674
+      Mikhail dragon sprite sheet_8: -8159256402777388779
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

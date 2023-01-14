@@ -1,0 +1,2775 @@
+fileFormatVersion: 2
+guid: f7c4affc12125564e9a9024bf5bbe0c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77663d4ce9dade4d9f1aa241d80b8cf
+      internalID: 541085293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 107
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97999c9f9c05f6f4b898b3d53ea63375
+      internalID: 1213976552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 113
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e1817111b3eb041912d1bd76832c89
+      internalID: 141175359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 110
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49863bf40da2c91439b2efaf54b0710a
+      internalID: -441106386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 116
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a4023aa61e2d4aaa5103f7cfb137d
+      internalID: -2094105442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2810cca4ca0f8d449afb50093cf25fa
+      internalID: -1631821089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_6
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 107
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a987c62d7ed94a9601f9743fe5551
+      internalID: 2117970362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 102
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bc6871551a0f44aa3e9a6e9d0fa6fd
+      internalID: -779123231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 104
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2a9b6ff3ce14d499de36c5fbb5f10e
+      internalID: 1536013182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_9
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 104
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ef7b3d32c92e42a0f2a4783d7e37a
+      internalID: -1487203381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_10
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 113
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5367d2475c734585159a57eb890b2
+      internalID: 1902569249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 110
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff3af7b0d489d148850c79cc77f7479
+      internalID: -1959567503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 116
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb90f64b8ad44f429fc5225f100e116
+      internalID: -1975391638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8a3d09160abda438ba790340e3ab11
+      internalID: -549415178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 107
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1c26537cc9734f9da0b028512c690
+      internalID: 1484992989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 102
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad946812a32eb64780322eab5e41314
+      internalID: -930004504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 107
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81912d274ced0a0479903eb28b8f7dfd
+      internalID: 1895050407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cded0dd9f0e2d9644ad673c7e2c1adb7
+      internalID: -159613399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 110
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51459a7619391e7409a004ff09e8ecce
+      internalID: -279584064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 116
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e699ecb2034348a611f885fb74f81
+      internalID: 271002658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c100f49bd15bbef46bdb24382673b829
+      internalID: 277547245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_21
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 107
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d009c06f30bd5664dad68ab15c134e53
+      internalID: 596742918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_22
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 102
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fceb8dcf8bd4845a1cb5298ed08190
+      internalID: -365499495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_23
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 104
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aec11cedc22ad646a5c5737de999d6c
+      internalID: -1609610945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 104
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c540fe0961bae9c42887b81df96bb784
+      internalID: 1728490415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_25
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06379f7764aec3c4fb46229821e2947a
+      internalID: -714471409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_26
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 110
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53668b94493b42f44b23ab11d6198792
+      internalID: 1862321852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_27
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 116
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff094c2be8385a4196ef513960face3
+      internalID: 1409682958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_28
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ac139efe9acad46bd14d951dd77669
+      internalID: -1240976518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_29
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 107
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26abba60ec755cc45affb16269a3a3b6
+      internalID: 1828416539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_30
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 102
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a86cd7fe2cc6994f996506fa0eff4d7
+      internalID: 1136886396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_31
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 107
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e917f5796e91549af08aa980994053
+      internalID: -1549514168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_32
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84ad495e5a6db43a75204b1221910e
+      internalID: 1748665923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_33
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 110
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebc06e166cedd24096497293839ed9b
+      internalID: -352767528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_34
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 116
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84870c264ae36840b1ae274872fb68b
+      internalID: 1824799417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_35
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 113
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef75bb52ae224741993fb98cd578d7e
+      internalID: 1025024319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_36
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 107
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4dd03387aad04d9450c40013268cd
+      internalID: 1822636044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_37
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 102
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2591b6bab9985e246a9ee66fd6fd96af
+      internalID: -1883905294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_38
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 104
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3056d334e804468d797db5304300d
+      internalID: 1303421269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_39
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 104
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c9fde0f9cb4d04b9a73129e51c959b
+      internalID: -1885146825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_40
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 113
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52315e7cce6bdbe4f92b0c0b1463c97e
+      internalID: 1647318015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_41
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 110
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebfe718a33ac5e4d93e6df218c6fc90
+      internalID: 1455215672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_42
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 116
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d86c7969f88e24d9afa1f5660e50c5
+      internalID: -1762280851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_43
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 113
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82243d5a4b8c2f44974a8a725aefc61
+      internalID: 217636287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_44
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 107
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5512503b39a9d5d4394b05a26c733afd
+      internalID: 1796174963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_45
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 102
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6a74b8e1d4f3c4197320cce48985f8
+      internalID: -76808582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_46
+      rect:
+        serializedVersion: 2
+        x: 4418
+        y: 104
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f00b5df7fafa47afcfadc381e5fb7
+      internalID: -1991898163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_47
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 104
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffda0a70a258c94db9658e1402c2c0c
+      internalID: -1833830771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_48
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 116
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24e191be998bf45af2f44733f8ea72
+      internalID: -1883981983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_49
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 107
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216a2c9ce4b5d845b37e2cd0f652181
+      internalID: -1128244321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_50
+      rect:
+        serializedVersion: 2
+        x: 4815
+        y: 119
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583cf3d89b23dc04d9abf943951b215c
+      internalID: -1289861736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_51
+      rect:
+        serializedVersion: 2
+        x: 4908
+        y: 121
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90af2cf6d424cd4ba1b4e9035633856
+      internalID: 501484992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_52
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 121
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fb81bb8a42b0c42a72e94950ba8c91
+      internalID: -1807506674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_53
+      rect:
+        serializedVersion: 2
+        x: 5091
+        y: 119
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f433dccbd2d3a4fbbe21832d77391d
+      internalID: 1396535373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_54
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 116
+        width: 85
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9362bffcebb3bc4889e15085c4da7e5
+      internalID: 1801841018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_55
+      rect:
+        serializedVersion: 2
+        x: 5279
+        y: 113
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b49adf95327943a83e87b468045e3
+      internalID: 1398837890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_56
+      rect:
+        serializedVersion: 2
+        x: 5377
+        y: 110
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0234ec520952714ebb665c7c55434f2
+      internalID: -38163334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_57
+      rect:
+        serializedVersion: 2
+        x: 5476
+        y: 107
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dc559feb51bc140a8c8de5ad23b958
+      internalID: 910506743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_58
+      rect:
+        serializedVersion: 2
+        x: 5569
+        y: 104
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a6fb2530ef05a4cace02509bebfde3
+      internalID: -1310632391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_59
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 102
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecbb01e05ca44449a3ad22e3af5e4da
+      internalID: 1894304557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbe8735ec585f47b692ef5fa88a267
+      internalID: 1435673495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 11
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f280cd3b9c3943f4f9cb58c207715aa4
+      internalID: 848944745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_62
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 11
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90df9fb51ecc9e94a95fb66347605af8
+      internalID: 864329586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_63
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d3a5234b9bbb84c80e708c754f298c
+      internalID: 927780346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_64
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 17
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08132cededdc924dbbf7a45230ed2eb
+      internalID: -597617742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_65
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 17
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91bb26aa6aa7b45ae498ea164c5156
+      internalID: -1666268514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_66
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 11
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4698c1d40a2b88546b055d42423f5240
+      internalID: -1825334194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_67
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 6
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1465169cd056e94392f530d3fc59ab6
+      internalID: 213248697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_68
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 6
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f98e1c112d73041b07c2422db317a9
+      internalID: 1010154367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_69
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 8
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24f0def15ed15e4394e9ab5b617e181
+      internalID: 2094843674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_70
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 11
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78d9e95c43ffe1459bbb03d35e13fbc
+      internalID: 365058968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_71
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ed6b0d88a385642b323099687dcca4
+      internalID: 2023295777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_72
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 17
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537c11504a218e4d8410fe5d6b567c5
+      internalID: -1912403413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_73
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 17
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd59f1c278f89fb4bae3cc4583cd1bfe
+      internalID: -945216367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_74
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 11
+        width: 93
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0f9a77539fcef4980c68f152694afa
+      internalID: 962023527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_75
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 6
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f2367472b50f141b60f0920b8773e5
+      internalID: -567475272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 11
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e448972162f441ade2c545f8f1102
+      internalID: 81525320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 11
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635fb4edd91e15147a219b577978fac5
+      internalID: 894934007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 0
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4390fc40790b43d44a470b111f533d4b
+      internalID: -460747674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 17
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0ce1140ed10de488d863a3c36d3885
+      internalID: 1547564751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_80
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 17
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d338f44c540a448b3d2a322e726534
+      internalID: -1789918987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_81
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 11
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade968d48db2ea04c81068a80e4e301b
+      internalID: 366672022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_82
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 6
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d7de7b31ebf9042a13f1c7bde82796
+      internalID: 1276919306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_83
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 6
+        width: 92
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570e3f6b21bd8a446a8e3e021c84ee3b
+      internalID: -1990449428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_84
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 8
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbb9dbc906966e45be49b7049405fd7
+      internalID: -1559652700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_85
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 11
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f7b901a5732c24eb3bfcf48ceee830
+      internalID: 1129734873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_86
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 0
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ccbc2896742d74890f76c4572082e5
+      internalID: 1486815301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_87
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 17
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4fc264f099c66408b909089d05a93f
+      internalID: 590155597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_88
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 17
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deda774dc2308ca4fa56c9df4e063dfc
+      internalID: -267012334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_89
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 11
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f93ea762646d974cbd9e58890256027
+      internalID: 1377412640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_90
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 6
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc84b08fe4b3324cbf2dd6d50fc6e28
+      internalID: 399376258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_91
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 11
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f1cfee5a7e73b4bb515d6e315ab063
+      internalID: -649885508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_92
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 11
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8f0f9074cf85a46aaee5e9fdbc5a29
+      internalID: -493641444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_93
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 0
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b5dcd2daca7e49bfc6e1c5bf09e7f
+      internalID: -798287788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_94
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 17
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548cc87f8cdf9e347a85c8f6c49e9464
+      internalID: -392378970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_95
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 17
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012503e79126e64ab35428cc282237a
+      internalID: 1038472256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_96
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 11
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdebb41a2b48754188bddf02f268f92
+      internalID: 930387671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_97
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 6
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747801562d4a9b1498afd993a83229b5
+      internalID: -1534989178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_98
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 6
+        width: 92
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f757dcdc509354499a819f9051212b
+      internalID: 1500749560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_99
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 8
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fecbbef081c92449c32fd72ea4ca6f
+      internalID: 1831068223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_100
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 11
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f84d62ea89984593d5828d413017d
+      internalID: 1066609017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_101
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 0
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b028dd624f99df44a30b70e0c61a692
+      internalID: -1157124501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_102
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 17
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9357dbd46a0f3c140a96387ccf817d44
+      internalID: -674824601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_103
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 17
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ca1d0b19d25d04fad898adc11a9bb9
+      internalID: -393552992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_104
+      rect:
+        serializedVersion: 2
+        x: 4233
+        y: 11
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea88059ea902664991e49a09423032b
+      internalID: 2019226892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_105
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 6
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c01cd7335e58e438d36902f986448c
+      internalID: 1726419695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_106
+      rect:
+        serializedVersion: 2
+        x: 4418
+        y: 6
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0847a1b8998eed74dab9010f069c4ed3
+      internalID: 1053051176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_107
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 6
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade614dea619ffb42818eaa7dd7d7e88
+      internalID: 1574560527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_108
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 11
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4ef1595032e1047bafeb575d0b4d0d
+      internalID: 1923766484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_109
+      rect:
+        serializedVersion: 2
+        x: 4702
+        y: 0
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be9647e57d3db2459ff23973f03e4a4
+      internalID: -1569605989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_110
+      rect:
+        serializedVersion: 2
+        x: 4798
+        y: 8
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37e57f3e301a3144ae8120b395d6bba
+      internalID: 1257845515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_111
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 20
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a5cc8849b523e4d88464a6694711aa
+      internalID: -814782514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_112
+      rect:
+        serializedVersion: 2
+        x: 5001
+        y: 20
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8ed757cfcaba546918814ba60eed80
+      internalID: 843002446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_113
+      rect:
+        serializedVersion: 2
+        x: 5102
+        y: 20
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2036b0e1706d4b8a96777efc8a7aa
+      internalID: 1755091899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_114
+      rect:
+        serializedVersion: 2
+        x: 5195
+        y: 17
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb028362cd4a69408aa0b4237a28e96
+      internalID: 280692114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_115
+      rect:
+        serializedVersion: 2
+        x: 5290
+        y: 17
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915e4c639b589a141a525cc2961c8476
+      internalID: -783326240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_116
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 14
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dedd195d767fa340b97f1d2a9de8b22
+      internalID: 775384722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_117
+      rect:
+        serializedVersion: 2
+        x: 5482
+        y: 8
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3674bb41e19053b4f93b6f85a643a0c5
+      internalID: -1201129608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_118
+      rect:
+        serializedVersion: 2
+        x: 5572
+        y: 8
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08a97f43c5ba5f43a8053dd5deb32a4
+      internalID: -593868673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapphire Pegasus _ABSS_ by TrainerD (1)_119
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 6
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dce9bf363356845be199a91e7dc8a9
+      internalID: 1963912739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_95: 1038472256
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_104: 2019226892
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_89: 1377412640
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_49: -1128244321
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_46: -1991898163
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_75: -567475272
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_30: 1136886396
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_3: -441106386
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_41: 1455215672
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_99: 1831068223
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_12: -1975391638
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_31: -1549514168
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_57: 910506743
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_58: -1310632391
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_4: -2094105442
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_13: -549415178
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_111: -814782514
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_37: -1883905294
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_40: 1647318015
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_15: -930004504
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_27: 1409682958
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_69: 2094843674
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_24: 1728490415
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_33: -352767528
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_34: 1824799417
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_52: -1807506674
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_66: -1825334194
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_80: -1789918987
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_43: 217636287
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_25: -714471409
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_84: -1559652700
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_2: 141175359
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_1: 1213976552
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_11: -1959567503
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_26: 1862321852
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_19: 271002658
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_67: 213248697
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_65: -1666268514
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_72: -1912403413
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_106: 1053051176
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_56: -38163334
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_114: 280692114
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_6: 2117970362
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_32: 1748665923
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_17: -159613399
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_97: -1534989178
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_100: 1066609017
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_5: -1631821089
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_79: 1547564751
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_107: 1574560527
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_78: -460747674
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_44: 1796174963
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_48: -1883981983
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_70: 365058968
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_83: -1990449428
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_115: -783326240
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_105: 1726419695
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_23: -1609610945
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_28: -1240976518
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_82: 1276919306
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_10: 1902569249
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_21: 596742918
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_36: 1822636044
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_117: -1201129608
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_90: 399376258
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_93: -798287788
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_77: 894934007
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_47: -1833830771
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_14: 1484992989
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_16: 1895050407
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_102: -674824601
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_119: 1963912739
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_39: -1885146825
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_112: 843002446
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_73: -945216367
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_85: 1129734873
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_74: 962023527
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_92: -493641444
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_86: 1486815301
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_113: 1755091899
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_53: 1396535373
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_60: 1435673495
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_20: 277547245
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_7: -779123231
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_29: 1828416539
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_38: 1303421269
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_91: -649885508
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_35: 1025024319
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_81: 366672022
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_110: 1257845515
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_8: 1536013182
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_9: -1487203381
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_109: -1569605989
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_59: 1894304557
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_118: -593868673
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_71: 2023295777
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_116: 775384722
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_96: 930387671
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_22: -365499495
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_50: -1289861736
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_76: 81525320
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_87: 590155597
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_68: 1010154367
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_18: -279584064
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_55: 1398837890
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_61: 848944745
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_108: 1923766484
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_54: 1801841018
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_63: 927780346
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_88: -267012334
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_42: -1762280851
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_62: 864329586
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_51: 501484992
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_0: 541085293
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_98: 1500749560
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_45: -76808582
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_94: -392378970
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_103: -393552992
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_101: -1157124501
+      Sapphire Pegasus _ABSS_ by TrainerD (1)_64: -597617742
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

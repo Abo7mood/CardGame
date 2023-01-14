@@ -14,7 +14,7 @@ public class Card : MonoBehaviour
     Image image; // the image for the card
 
 
-    private MonsterObject monsterData; // the monster data
+
 
     public bool isLeader { get; set; } = false;
     public bool isFieldLeader { get; set; } = false;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-public class CardHolderSlot : MonoBehaviour,IDropHandler
+public class CardHolderSlot : MonoBehaviour, IDropHandler
 {
     [Header("Data")]
     public int slotPos;
@@ -11,20 +11,22 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     public Sprite leaderImage; // the image for the leader , so we can change it from the script 
     private GridLayoutGroup grid;
     #region booleans
-  public bool isFront  = false; // boolean to check if the slot is front (attackable or not )
-    public bool isLeader  = false; // is leader or not 
+    public bool isFront = false; // boolean to check if the slot is front (attackable or not )
+    public bool isLeader = false; // is leader or not 
     public bool isEnemy;// is Enemy or not 
     #endregion
-  
+
 
     public Transform cardTransform; // where should be the field instinitate the monster
     private Image image;
-    
+
     public int MonsterCount;// what is the monster count for this field 
 
     CardHandler draggableItem;
 
     GameObject dropped;
+
+    public GameObject monster;
     private void Awake()
     {
         image = GetComponent<Image>();
@@ -34,27 +36,34 @@ public class CardHolderSlot : MonoBehaviour,IDropHandler
     {
         if (isLeader) image.sprite = leaderImage;
 
-        if(isEnemy)
+        if (isEnemy)
         {
             grid.enabled = false;
             Destroy(this);
         }
     }
-  
+
     public void OnDrop(PointerEventData eventData)
-    {  
-         dropped = eventData.pointerDrag;
-         draggableItem = dropped.GetComponent<CardHandler>();
+    {
+        dropped = eventData.pointerDrag;
+        draggableItem = dropped.GetComponent<CardHandler>();
         if (draggableItem == null) return;
+
+
+        Setter();
+
+        if (isLeader && transform.childCount <= 0)
+        {
+            StartCoroutine(LeaderBehaviour(0.05f));
+        }
+    }
+    private void Setter()
+    {
         draggableItem.parentAfterDrag = transform;
         draggableItem.slotPos = slotPos;
         draggableItem.cardHolderSlotAfter = this;
-
-        if (isLeader&& transform.childCount<=0)
-        {
-            StartCoroutine(LeaderBehaviour(0.05f));
-
-        }
+        monster = draggableItem.monster;
+        draggableItem.cardPlacedCounter++;
     }
     IEnumerator LeaderBehaviour(float time)
     {

@@ -69,7 +69,7 @@ TextureImporter:
       213: -5812917477805226146
     second: Green dragon animation sprite sheet_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Green dragon animation sprite sheet_16: -1343052707576584434
+      Green dragon animation sprite sheet_10: 1531185117313699381
+      Green dragon animation sprite sheet_12: 2106878341137187825
+      Green dragon animation sprite sheet_15: -5021980125041059194
+      Green dragon animation sprite sheet_3: 7164048512787532839
+      Green dragon animation sprite sheet_7: -7787548141193480344
+      Green dragon animation sprite sheet_6: 1798294662156728958
+      Green dragon animation sprite sheet_8: 915782028657695639
+      Green dragon animation sprite sheet_0: -2027306137954074212
+      Green dragon animation sprite sheet_14: -7695561313268647113
+      Green dragon animation sprite sheet_17: -4812506106807847677
+      Green dragon animation sprite sheet_20: -1698250648768697087
+      Green dragon animation sprite sheet_11: -5008213263811015054
+      Green dragon animation sprite sheet_5: 3411623283397750435
+      Green dragon animation sprite sheet_2: -9167815740230897428
+      Green dragon animation sprite sheet_13: 1555195549269222366
+      Green dragon animation sprite sheet_19: -6997017761765895110
+      Green dragon animation sprite sheet_4: 6589075088789027171
+      Green dragon animation sprite sheet_18: -3473019588127722379
+      Green dragon animation sprite sheet_21: -5812917477805226146
+      Green dragon animation sprite sheet_1: 6509134575632712439
+      Green dragon animation sprite sheet_9: 1815269231002152976
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

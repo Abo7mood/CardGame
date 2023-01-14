@@ -69,7 +69,7 @@ TextureImporter:
       213: -5533619839659522976
     second: Thunder dragon sprite sheet_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Thunder dragon sprite sheet_10: 1376853096294863036
+      Thunder dragon sprite sheet_13: -225577232922451459
+      Thunder dragon sprite sheet_8: -9144998349359625328
+      Thunder dragon sprite sheet_4: 2451198101267677233
+      Thunder dragon sprite sheet_6: 2256226138727733986
+      Thunder dragon sprite sheet_20: 1580143410483536903
+      Thunder dragon sprite sheet_9: -6608897348330447366
+      Thunder dragon sprite sheet_12: 2025488864473200406
+      Thunder dragon sprite sheet_15: -8443837329320256799
+      Thunder dragon sprite sheet_11: -6169882640904235205
+      Thunder dragon sprite sheet_21: -5533619839659522976
+      Thunder dragon sprite sheet_5: 5678270214061773499
+      Thunder dragon sprite sheet_7: 817772628418450207
+      Thunder dragon sprite sheet_19: -6207964036695006781
+      Thunder dragon sprite sheet_0: 6695667069690578158
+      Thunder dragon sprite sheet_17: 3651498415108048031
+      Thunder dragon sprite sheet_2: 3215331823799241625
+      Thunder dragon sprite sheet_16: 1789249309858204073
+      Thunder dragon sprite sheet_18: -4401128774064939660
+      Thunder dragon sprite sheet_3: 4284381427419775106
+      Thunder dragon sprite sheet_14: -3499065876054967720
+      Thunder dragon sprite sheet_1: -776099505435104325
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

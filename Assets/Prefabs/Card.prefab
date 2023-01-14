@@ -31,6 +31,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,6 +110,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 489bb76f2cae69b4699bf68b3be19332, type: 2}
   - {fileID: 11400000, guid: 9903a21dd694b06408f7f41c5f035237, type: 2}
   - {fileID: 11400000, guid: 52cf50466888c654fb30468aca19cc03, type: 2}
+  - {fileID: 11400000, guid: 980e6712febf1374b95369235be430a3, type: 2}
   data: {fileID: 0}
 --- !u!114 &7611291786429770983
 MonoBehaviour:
@@ -123,3 +125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 2348748750214563578}
+  monster: {fileID: 0}
+  thisSlot: {fileID: 0}
+  thisHandler: {fileID: 0}
+  cardHolderSlotAfter: {fileID: 0}
+  previousSlotPos: 0
+  slotPos: 0

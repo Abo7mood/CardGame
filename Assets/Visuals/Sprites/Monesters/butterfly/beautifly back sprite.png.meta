@@ -150,7 +150,7 @@ TextureImporter:
       213: -1248281375461344083
     second: beautifly back sprite_48
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -171,6 +171,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -209,6 +210,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -248,6 +250,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1300,6 +1314,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      beautifly back sprite_32: -8454026016506587860
+      beautifly back sprite_3: -892342338381363606
+      beautifly back sprite_5: -4379309243681897571
+      beautifly back sprite_2: -920812513101690417
+      beautifly back sprite_38: -3956987484232960467
+      beautifly back sprite_15: 9171051600120012950
+      beautifly back sprite_14: -4926585416611585653
+      beautifly back sprite_20: 825919784570827206
+      beautifly back sprite_26: -3412392244080373262
+      beautifly back sprite_11: 8536303449155332371
+      beautifly back sprite_36: 8423976599948132783
+      beautifly back sprite_47: -2481575646242586478
+      beautifly back sprite_27: 3456600439337377648
+      beautifly back sprite_31: -1068399205850645038
+      beautifly back sprite_29: 5205519864864467373
+      beautifly back sprite_4: 1775694553807936257
+      beautifly back sprite_0: 4124413031621497032
+      beautifly back sprite_48: -1248281375461344083
+      beautifly back sprite_37: -3599302831685159653
+      beautifly back sprite_18: 4575444272106663424
+      beautifly back sprite_22: 2243059920352360872
+      beautifly back sprite_40: 3064381070020754465
+      beautifly back sprite_45: -512811569839228862
+      beautifly back sprite_34: -6633092848859182311
+      beautifly back sprite_13: -7404959841291250159
+      beautifly back sprite_16: 7084175917854032244
+      beautifly back sprite_42: -5113950160427310874
+      beautifly back sprite_43: -2834150347607835232
+      beautifly back sprite_24: 8011148286769781408
+      beautifly back sprite_46: -8538837184225336386
+      beautifly back sprite_8: -4999766863663819850
+      beautifly back sprite_39: 2581765715635704405
+      beautifly back sprite_10: -7908236323510212974
+      beautifly back sprite_35: -1269162627925982755
+      beautifly back sprite_1: 5767813180137784489
+      beautifly back sprite_28: -7253985721811793598
+      beautifly back sprite_23: -7350457140358904915
+      beautifly back sprite_17: 1741042161715341674
+      beautifly back sprite_21: -755688193390173364
+      beautifly back sprite_6: -1480328161070443161
+      beautifly back sprite_33: -3518507596930819246
+      beautifly back sprite_44: 725550310983382981
+      beautifly back sprite_30: -1502941054712496763
+      beautifly back sprite_9: 6315497216782823437
+      beautifly back sprite_7: -6639781988801018950
+      beautifly back sprite_12: 7858823186155057550
+      beautifly back sprite_25: 787584130900122402
+      beautifly back sprite_19: -4916679816466532182
+      beautifly back sprite_41: 5926123647963114925
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

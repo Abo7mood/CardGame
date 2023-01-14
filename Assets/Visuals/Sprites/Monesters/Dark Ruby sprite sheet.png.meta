@@ -69,7 +69,7 @@ TextureImporter:
       213: -2011340099101411489
     second: Dark Ruby sprite sheet_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dark Ruby sprite sheet_7: 7589461448352765973
+      Dark Ruby sprite sheet_6: 3648350835211520882
+      Dark Ruby sprite sheet_17: -699967819287749022
+      Dark Ruby sprite sheet_2: 3731083997255361667
+      Dark Ruby sprite sheet_3: 3011880910578430206
+      Dark Ruby sprite sheet_11: -7711489720402567698
+      Dark Ruby sprite sheet_10: 7870978863033847431
+      Dark Ruby sprite sheet_5: -9204926701455186318
+      Dark Ruby sprite sheet_16: 5911770525672810024
+      Dark Ruby sprite sheet_9: -4491869453797541291
+      Dark Ruby sprite sheet_18: -2720302467829217405
+      Dark Ruby sprite sheet_15: -1402574351473918997
+      Dark Ruby sprite sheet_21: -2011340099101411489
+      Dark Ruby sprite sheet_13: 3722295904576793640
+      Dark Ruby sprite sheet_8: -2465984704404828663
+      Dark Ruby sprite sheet_1: -2615161060580317719
+      Dark Ruby sprite sheet_20: -3169627309820593284
+      Dark Ruby sprite sheet_12: 6694379097674574765
+      Dark Ruby sprite sheet_4: 7885900859781506041
+      Dark Ruby sprite sheet_0: -4645137866999415975
+      Dark Ruby sprite sheet_19: 1678425776898314893
+      Dark Ruby sprite sheet_14: 5855620140419031207
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

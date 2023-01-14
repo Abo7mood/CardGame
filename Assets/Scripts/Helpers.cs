@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Helpers : MonoBehaviour
+public static class Helpers
 {
-    // Start is called before the first frame update
-    void Start()
+   public static void Logger(string message)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(message);
     }
 }
