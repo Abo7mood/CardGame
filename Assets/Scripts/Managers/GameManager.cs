@@ -56,17 +56,15 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-       
-        cards.CardSetter();
+        SetCard();
     }
-
-    public virtual void CreateCard() => cards.CreateCard();
+    public void SetCard() => cards.CardSetter();
+    public virtual void CreateCard(int amount) => cards.CreateCard(amount);
     public virtual void CreateMonster(ref Transform transform, ref MonsterObject card,int Count, ref CardHandler handler, ref CardSlot slot, int slotPos) =>
         monsters.CreateMonster(ref transform,ref card,Count,ref handler,ref slot,slotPos);
 
     public void SetCardAmount()
     {
-
         instance.cardTXT.text = cards.cardSlot.ToString(); // set card text to card amount
         instance.DropTXT.text = instance.cardDropZone.ToString();
     }
@@ -75,11 +73,10 @@ class cards :GameManager
 {
      int index = 0; // index to count
 
-     int cardInTheGame; // card amount in the game 
+
     public int cardSlot { get; set; } = 33; // card slot when we start 
 
     int cardInTheGameMaximum => 5; // the maximum card in your hand
-     int cardRequire => 3; // how many cards can you pick in your hand at the moment
 
      int cardAmount { get; set; } //current card amount in your hand
 
@@ -87,24 +84,22 @@ class cards :GameManager
     {
         cardAmount = instance.cardParent.transform.childCount;//set the card amount
         instance.SetCardAmount();
-        CreateCard();
+        CreateCard(5);
     }
-    public override void CreateCard()
+    public override void CreateCard(int amount)
     {
-        while (canGenerateCard)
+        Debug.Log("X");
+        while (canGenerateCard&&index<amount)
         {
             GameObject newCard= Instantiate(instance.cardPrefab, instance.cardParent.position, Quaternion.identity, instance.cardParent);//create object 
             index++;
-            cardInTheGame++;
             cardSlot--;
             instance.SetCardAmount();
         }
         index = 0; // reset index
     }
 
-    
-
-    private bool canGenerateCard => index < cardRequire && instance.cardParent.transform.childCount < cardRequire && cardInTheGame < cardInTheGameMaximum && cardSlot > 0;
+    private bool canGenerateCard =>  cardSlot > 0;
 }
 class MonsterChild : GameManager
 {

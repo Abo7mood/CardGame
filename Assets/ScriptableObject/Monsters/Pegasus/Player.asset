@@ -19,4 +19,5 @@ MonoBehaviour:
   heal: 0
   clip: {fileID: 7400000, guid: c849957e2f8daed4d8df987d012832d2, type: 2}
   cardImage: {fileID: 21300000, guid: 6c84c3a31dbc0344dbc77884a52683c0, type: 3}
+  Level: 1
   isLeader: 0

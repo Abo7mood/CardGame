@@ -8,7 +8,14 @@ public class CardManager : MonoBehaviour
     public static CardManager instance;
 
     public Transform[] cardHolderSlots;
+
     private Monster[] monsters;
+    [Space(15)]
+    public CardHolderSlot cardPlayerSlot, cardEnemySlot;
+    [Space(5)]
+   [SerializeField] GameObject leaderPanel; //disable and enable panels to start the game
+
+    [SerializeField] GameObject phaseButton;
     private void Awake()
     {
         Init();
@@ -18,7 +25,6 @@ public class CardManager : MonoBehaviour
     {
         Subscriber();
     }
-
 
 
     private void Init()
@@ -68,6 +74,12 @@ public class CardManager : MonoBehaviour
     bool IsEmptyCardSlot(int count) => cardHolderSlots[count].childCount <= 0;
     bool IsTheSameEnemy(int count) => GameManager.instance.monsterParents[count].GetComponentInChildren<Monster>().data == card(child(cardHolderSlots[count])).data;
     #endregion
+    public void StartTheGame()
+    {
+        leaderPanel.SetActive(false);
+        phaseButton.SetActive(true);
+        PhaseManager.instance.phases = PhaseManager.Phases.draw;
+    }
     public void Check()
     {
         for (int i = 0; i < cardHolderSlots.Length; i++)
@@ -108,6 +120,12 @@ public class CardManager : MonoBehaviour
     {
 
         Destroy(GameManager.instance.monsterParents[monsterCount].transform.GetChild(0).gameObject);
+    }
+    public void DeleteCard( GameObject obj)
+    {
+        Destroy(obj);
+        GameManager.instance.cardDropZone++;
+        GameManager.instance.SetCardAmount();
     }
     private void Swap(int i)
     {    

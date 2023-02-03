@@ -19,5 +19,8 @@ public class MonsterObject : ScriptableObject
 
     public Sprite cardImage;
 
+    [Space(15)]
+    public int Level;
+    [Space(15)]
     public bool isLeader=false;
 }

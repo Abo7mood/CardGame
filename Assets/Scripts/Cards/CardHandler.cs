@@ -51,6 +51,8 @@ public class CardHandler : MonoBehaviour
      public int cardPlacedCounter { get; set; } //how many times the card placed on the card holder slot
 
     #endregion
+
+    public bool canTrigger; //boolean to stop the code to drag and drop the cards while we are in drawing or battle mode
     private void Awake()
     {
         initialize();
@@ -78,6 +80,7 @@ public class CardHandler : MonoBehaviour
     #endregion
     public void BeingDrag()
     {
+        if (canTrigger) return;
         if (transform.parent.GetComponent<CardHolderSlot>() != null)
         {
             cardHolderSlotBefore = transform.parent.GetComponent<CardHolderSlot>();
@@ -90,18 +93,33 @@ public class CardHandler : MonoBehaviour
         transform.SetAsLastSibling();//then make hte the last object 
         previousParent = parentAfterDrag; // make the previous is my parentafterdrag
 
-
     }
     public void Drag()
     {
+        if (canTrigger) return;
+
         transform.position = Input.GetTouch(0).position; // get the positoin
     }
     public void EndDrag()
     {
-
+        if (canTrigger) return;
+        switch (PhaseManager.instance.phases)
+        {
+           
+            case PhaseManager.Phases.draw:
+                break;
+            case PhaseManager.Phases.leader:
+                break;
+            case PhaseManager.Phases.main:
+                break;
+            case PhaseManager.Phases.battle:
+                break;
+            default:
+                break;
+        }
         Action();
 
-        GameManager.instance.CreateCard();
+        
     }
 
 
@@ -116,10 +134,7 @@ public class CardHandler : MonoBehaviour
 
         CardManager.instance.checkHandlerDelegate?.Invoke();
 
-        
-
         Activator();
-
 
     }
   
@@ -152,9 +167,9 @@ public class CardHandler : MonoBehaviour
     {
         if (IsHand(swappedParent))
         {
-            Destroy(swappedParent.GetChild(swappedParent.childCount-1).gameObject);
-            GameManager.instance.cardDropZone++;
-            GameManager.instance.SetCardAmount();
+            CardManager.instance.DeleteCard(swappedParent.GetChild(swappedParent.childCount - 1).gameObject);
+            
+            
         }
     }
     #region Booleans1

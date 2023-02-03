@@ -13,9 +13,6 @@ public class Card : MonoBehaviour
     [Space(5)]
     Image image; // the image for the card
 
-
-
-
     public bool isLeader { get; set; } = false;
     public bool isFieldLeader { get; set; } = false;
 
@@ -27,9 +24,11 @@ public class Card : MonoBehaviour
         else
             transform.eulerAngles = new Vector3(0, 0, 180);
     }
+
+    
     private void Start()
     {
-
+        DestroyToggles();
         StartCoroutine(awaitSetter());
     }
     void Setter(string name, Sprite cardImage)
@@ -37,9 +36,18 @@ public class Card : MonoBehaviour
         gameObject.name = name;
         image.sprite = cardImage;     
     }
+    private void DestroyToggles()
+    {
+        if (isEnemy)
+        {
+            for (int i = 0; i < transform.childCount; i++)
+                Destroy(transform.GetChild(i).gameObject);
+        }
+    }
     IEnumerator awaitSetter()
     {
         yield return new WaitUntil(()=>data != null);
         Setter(data.name, data.cardImage);
     }
+
 }

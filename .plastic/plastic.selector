@@ -1,0 +1,4 @@
+repository "CardGame@Abo7mood@cloud"
+  path "/"
+    br "/main"
+    co "/main"

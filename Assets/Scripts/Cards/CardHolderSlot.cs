@@ -5,6 +5,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class CardHolderSlot : MonoBehaviour, IDropHandler
 {
+    [Header("Leader")]
+    public bool isLeaderStartSlot;
+    public Transform[] cardHolderSlots;
+    [SerializeField] ScrollRect rect;
     [Header("Data")]
     public int slotPos;
     [Space(15)]
@@ -49,13 +53,30 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
         draggableItem = dropped.GetComponent<CardHandler>();
         if (draggableItem == null) return;
 
-
+        if (isLeaderStartSlot)
+        {
+            LeaderSlot();
+           
+        }
         Setter();
 
         if (isLeader && transform.childCount <= 0)
         {
             StartCoroutine(LeaderBehaviour(0.05f));
         }
+    }
+
+    private void LeaderSlot()
+    {
+        for (int i = 0; i < cardHolderSlots.Length; i++)
+        {
+            cardHolderSlots[i].gameObject.SetActive(true);
+        }
+        isLeaderStartSlot = false;
+        rect.enabled = true;
+        PhaseManager.instance.SwitcherSetter();
+        CardManager.instance.StartTheGame();
+
     }
     private void Setter()
     {
