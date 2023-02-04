@@ -7,6 +7,7 @@ public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 {
    
     private CardHandler handler;
+
     private Card card;
     public bool isDrawed;
     public GameObject drawToggle, battleToggle;
@@ -20,24 +21,22 @@ public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     private void Start()
     {
-        drawToggle.SetActive(false);
-        battleToggle.SetActive(false);
+        
     }
 
     public void Toggler()
     {
-      
         drawToggle.SetActive(false);
         battleToggle.SetActive(false);
-
+        if (transform.GetComponentInParent<CardHolderSlot>()==true) return;
         if (PhaseManager.instance.phases == PhaseManager.Phases.draw) drawToggle.SetActive(true);
-        else if(PhaseManager.instance.phases == PhaseManager.Phases.battle) battleToggle.SetActive(true);
+        else if (PhaseManager.instance.phases == PhaseManager.Phases.battle) battleToggle.SetActive(true);
+        
 
     }
 
     public int ReDraw()
     {
-
         return drawToggle.GetComponent<DrawToggler>().DrawValue;
     }
     public void OnBeginDrag(PointerEventData eventData)

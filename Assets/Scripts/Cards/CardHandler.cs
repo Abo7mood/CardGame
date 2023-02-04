@@ -18,6 +18,7 @@ public class CardHandler : MonoBehaviour
     private EventHandler setPreviousParentHandler;
     private EventHandler swapHandler;
     private EventHandler handHandler;
+   // private EventHandler leaderHandler;
 
     #endregion
     #region Components
@@ -51,8 +52,9 @@ public class CardHandler : MonoBehaviour
      public int cardPlacedCounter { get; set; } //how many times the card placed on the card holder slot
 
     #endregion
-
     public bool canTrigger; //boolean to stop the code to drag and drop the cards while we are in drawing or battle mode
+    public bool isStartup; //boolean to see if the cards is the start cards that we have to drag and drop into the leader field
+
     private void Awake()
     {
         initialize();
@@ -67,7 +69,6 @@ public class CardHandler : MonoBehaviour
         OnEndDrag += EndDrag;
         #endregion
         #region Events
-
         Activator();
         #endregion
 
@@ -103,27 +104,39 @@ public class CardHandler : MonoBehaviour
     public void EndDrag()
     {
         if (canTrigger) return;
+        if (isStartup&& !IsLeader(parentAfterDrag))
+        {
+            setPreviousParentHandler?.Invoke(this, EventArgs.Empty); // this is the for the few cards we have once we start the game
+            return;
+        }
         switch (PhaseManager.instance.phases)
         {
-           
             case PhaseManager.Phases.draw:
                 break;
             case PhaseManager.Phases.leader:
+             //   LeaderAction();
                 break;
             case PhaseManager.Phases.main:
+                MainAction();
                 break;
             case PhaseManager.Phases.battle:
                 break;
             default:
                 break;
         }
-        Action();
+        Activator();
 
-        
+        CardManager.instance.checkHandlerDelegate?.Invoke();
     }
 
+    //private void LeaderAction()
+    //{
+    //    leaderHandler?.Invoke(this, EventArgs.Empty);
 
-    public void Action()
+    //    setPreviousParentHandler?.Invoke(this, EventArgs.Empty);
+
+    //}
+    private void MainAction()
     {
 
         swapHandler?.Invoke(this, EventArgs.Empty);
@@ -132,9 +145,6 @@ public class CardHandler : MonoBehaviour
 
         setPreviousParentHandler?.Invoke(this, EventArgs.Empty);
 
-        CardManager.instance.checkHandlerDelegate?.Invoke();
-
-        Activator();
 
     }
   
@@ -145,19 +155,21 @@ public class CardHandler : MonoBehaviour
         setPreviousParentHandler -= SetPreviousParent;
     }
 
-   
-
     private void SetPreviousParent(object sender, EventArgs e)
     {
         if (Situation2())
+        {
             transform.SetParent(previousParent); //change parent to parentafterdrag  
+            Debug.Log("SetPreviousParent");
+        }
+           
+
     }
 
     private void Swap(object sender, EventArgs e)
     {
         if (Situation3())
         {
-
             SwappedCard();
             flag = false;
             handHandler?.Invoke(this, EventArgs.Empty);
@@ -167,15 +179,25 @@ public class CardHandler : MonoBehaviour
     {
         if (IsHand(swappedParent))
         {
-            CardManager.instance.DeleteCard(swappedParent.GetChild(swappedParent.childCount - 1).gameObject);
-            
-            
+            Debug.Log("IsHand");
+            CardManager.instance.DeleteCard(swappedParent.GetChild(swappedParent.childCount - 1).gameObject);          
         }
     }
+    //private void Leader(object sender, EventArgs e)
+    //{
+    //    if (Situation4())
+    //    {
+    //        setPreviousParentHandler -= SetPreviousParent;
+    //        if (IsFull(parentAfterDrag)) CardManager.instance.DeleteCard(parentAfterDrag.GetChild(0).gameObject);
+    //        transform.SetParent(parentAfterDrag); //change parent to parentafterdrag             
+    //        PhaseManager.instance.canSwitchLeaders = false;
+    //    }
+    //}
     #region Booleans1
     private bool Situation1() => !IsFull(parentAfterDrag);
-    private bool Situation2() => IsLeader(parentAfterDrag) && IsFull(parentAfterDrag);
+    private bool Situation2() => (IsLeader(parentAfterDrag) && IsFull(parentAfterDrag))||!isPhase(PhaseManager.Phases.main);
     private bool Situation3() => IsFull(parentAfterDrag) && !IsLeader(parentAfterDrag) && IsSlot(parentAfterDrag);
+    private bool Situation4() =>  IsLeader(parentAfterDrag) && IsHand(previousParent) &&PhaseManager.instance.canSwitchLeaders;
 
     #endregion
 
@@ -191,6 +213,7 @@ public class CardHandler : MonoBehaviour
             return transform.GetComponent<CardHolderSlot>().isLeader;
         else return false;
     }
+    bool isPhase(PhaseManager.Phases phases) => PhaseManager.instance.phases == phases;
     #endregion
 
     #region Behaviours
@@ -213,7 +236,9 @@ public class CardHandler : MonoBehaviour
         setPreviousParentHandler += SetPreviousParent;
         swapHandler += Swap;
         handHandler += Hand;
+       // leaderHandler += Leader;
         flag = false;
+
     }
     #endregion
 

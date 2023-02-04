@@ -55,8 +55,7 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
 
         if (isLeaderStartSlot)
         {
-            LeaderSlot();
-           
+            LeaderSlot();          
         }
         Setter();
 
@@ -73,10 +72,13 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
             cardHolderSlots[i].gameObject.SetActive(true);
         }
         isLeaderStartSlot = false;
-        rect.enabled = true;
-        PhaseManager.instance.SwitcherSetter();
-        CardManager.instance.StartTheGame();
+        rect.enabled = true; 
 
+        draggableItem.transform.parent = transform;
+        CardManager.instance.StartTheGame();
+        PhaseManager.instance.SwitcherSetter();
+
+        Debug.Log("LeaderSlot");
     }
     private void Setter()
     {

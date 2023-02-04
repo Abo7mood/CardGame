@@ -13,12 +13,16 @@ public class PhaseManager : MonoBehaviour
         leader,
         main,
         battle
-       
+
     }
     [Space(10)]
     public CardSlot[] cards;
     [Space(10)]
     [SerializeField] TextMeshProUGUI phaseButtonTXT;
+
+    [HideInInspector] public bool canSwitchLeaders = true;
+
+    public int cardToDrawAmount;
     private void Awake()
     {
         Init();
@@ -26,6 +30,7 @@ public class PhaseManager : MonoBehaviour
     private void Start()
     {
         cards = FindObjectsOfType<CardSlot>();
+        cardToDrawAmount = 5;
     }
     public void SwitcherSetter()
     {
@@ -36,47 +41,55 @@ public class PhaseManager : MonoBehaviour
         phaseNumber++;
 
     }
+
+
     public void Switcher()
     {
-        PhaseStart();
         switch (phases)
         {
             case Phases.draw:
-                StartCoroutine(StopMovingCards(0.05f,true));
+                GameManager.instance.CreateCard(cardToDrawAmount);
+                cardToDrawAmount = 1;
+                StartCoroutine(StopMovingCards(0.05f, true));
                 break;
             case Phases.leader:
-                DestroyCards();
+                PhaseStart();
+                StartCoroutine(StopMovingCards(0.05f, false));
+                canSwitchLeaders = true;
+
                 DrawCards();
+                DestroyCards();
+               
 
                 break;
-            case Phases.main:
-                StartCoroutine(StopMovingCards(0.05f, false));
 
+            case Phases.main:
+                PhaseStart();
                 break;
             case Phases.battle:
-                break;            
+                PhaseStart();
+                break;
             default:
                 break;
         }
+        
     }
-    private void PhaseStart()
+    public void PhaseStart()
     {
         cards = FindObjectsOfType<CardSlot>();
 
         for (int i = 0; i < cards.Length; i++)
-        {
-            if(cards[i]!=null)
-            cards[i].Toggler();
+        {           
+                cards[i].Toggler();
         }
     }
     private void DrawCards()
     {
-        int index=0;
+        int index = 0;
         for (int i = 0; i < cards.Length; i++)
         {
-            index+= cards[i].ReDraw();
+            index += cards[i].ReDraw();
         }
-        Debug.Log(index + $": {this.name}");
         GameManager.instance.CreateCard(index);
     }
     private void DestroyCards()
@@ -88,13 +101,13 @@ public class PhaseManager : MonoBehaviour
         }
 
     }
-    
+
     private string PhaseString()
     {
         string phaseName;
         switch (phases)
         {
-            
+
             case Phases.draw:
                 phaseName = "DP";
                 break;
@@ -113,7 +126,7 @@ public class PhaseManager : MonoBehaviour
         }
         return phaseName;
     }
-    private IEnumerator StopMovingCards(float time,bool Stop)
+    private IEnumerator StopMovingCards(float time, bool Stop)
     {
         yield return new WaitForSeconds(time);
         for (int i = 0; i < cards.Length; i++)

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
-   static cards cards; //class 
+   public static cards cards; //class 
     MonsterChild monsters;//class 
     public List<Monster> monstersChildren;//list for all monsters inside the game
     public static GameManager instance;//singleton
@@ -65,27 +65,26 @@ public class GameManager : MonoBehaviour
 
     public void SetCardAmount()
     {
+        cards.cardAmount = cardParent.transform.childCount;//set the card amount
         instance.cardTXT.text = cards.cardSlot.ToString(); // set card text to card amount
         instance.DropTXT.text = instance.cardDropZone.ToString();
     }
 }
-class cards :GameManager
+ public class cards :GameManager
 {
      int index = 0; // index to count
 
 
-    public int cardSlot { get; set; } = 33; // card slot when we start 
+    public int cardSlot { get; set; } = 40; // card slot when we start 
 
     int cardInTheGameMaximum => 5; // the maximum card in your hand
 
-     int cardAmount { get; set; } //current card amount in your hand
+    public int cardAmount { get; set; } //current card amount in your hand
 
-    public void CardSetter()
-    {
-        cardAmount = instance.cardParent.transform.childCount;//set the card amount
-        instance.SetCardAmount();
-        CreateCard(5);
-    }
+    public int drawCardsAmount { get; } = 5;
+
+    public void CardSetter() => instance.SetCardAmount();
+
     public override void CreateCard(int amount)
     {
         Debug.Log("X");
@@ -94,9 +93,11 @@ class cards :GameManager
             GameObject newCard= Instantiate(instance.cardPrefab, instance.cardParent.position, Quaternion.identity, instance.cardParent);//create object 
             index++;
             cardSlot--;
-            instance.SetCardAmount();
         }
+        instance.SetCardAmount();
+        PhaseManager.instance.PhaseStart(); // so we can toggle cards;
         index = 0; // reset index
+
     }
 
     private bool canGenerateCard =>  cardSlot > 0;

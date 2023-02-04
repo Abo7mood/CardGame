@@ -41,7 +41,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 260}
+  m_SizeDelta: {x: 300, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2348748750214563577
 CanvasRenderer:
@@ -138,6 +138,7 @@ MonoBehaviour:
   previousSlotPos: 0
   slotPos: 0
   canTrigger: 0
+  isStartup: 0
 --- !u!1 &3267281655641620158
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4384703719974208859
 RectTransform:
   m_ObjectHideFlags: 0
@@ -338,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71e3e33f5ae2e2b4c968a58a97b4e8a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawValue: 0
 --- !u!1 &6506984403956248980
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,7 +508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3449841182434187107
 RectTransform:
   m_ObjectHideFlags: 0

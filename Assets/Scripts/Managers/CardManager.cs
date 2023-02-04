@@ -16,6 +16,7 @@ public class CardManager : MonoBehaviour
    [SerializeField] GameObject leaderPanel; //disable and enable panels to start the game
 
     [SerializeField] GameObject phaseButton;
+
     private void Awake()
     {
         Init();
@@ -94,7 +95,7 @@ public class CardManager : MonoBehaviour
                 }
             }
            
-            Helpers.Logger(IsEmptyMonster(i) + " " + i);
+
             if (!IsEmptyCardSlot(i) && IsEmptyMonster(i))
             {
                 createMonsterDelegate?.Invoke(cardHolderSlots[i], child(cardHolderSlots[i]));
@@ -129,7 +130,6 @@ public class CardManager : MonoBehaviour
     }
     private void Swap(int i)
     {    
-            Helpers.Logger("X");
         GameManager.instance.monsterParents[i].GetComponentInChildren<Monster>().data = card(child(cardHolderSlots[i])).data;
         GameManager.instance.monsterParents[i].GetComponentInChildren<Monster>().Setter();
     }
