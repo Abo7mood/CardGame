@@ -17,6 +17,8 @@ MonoBehaviour:
   canvasPos: {x: 0, y: 3, z: 0}
   spritePos: {x: 0, y: 1.42, z: 0}
   heal: 0
+  Attack: 2000
+  Defense: 0
   clip: {fileID: 7400000, guid: 11bc778a278cd1c44b4d7457dd61d628, type: 2}
   cardImage: {fileID: 21300000, guid: 7619560ac9d883944832aad7b78342cd, type: 3}
   Level: 2

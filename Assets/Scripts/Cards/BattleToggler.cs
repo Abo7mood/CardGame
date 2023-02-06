@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class BattleToggler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public cards cards;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+
 }

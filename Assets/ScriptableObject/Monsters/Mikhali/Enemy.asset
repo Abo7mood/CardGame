@@ -16,6 +16,10 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   canvasPos: {x: 0, y: 2.3, z: 0}
   spritePos: {x: 0.4, y: 1, z: 0}
-  heal: 900
+  heal: 500
+  Attack: 0
+  Defense: 0
   clip: {fileID: 7400000, guid: 7859eb455d47149419f04633530e1b53, type: 2}
   cardImage: {fileID: 21300000, guid: 0575598a1bb39764f86bca941235901f, type: 3}
+  Level: 0
+  isLeader: 0

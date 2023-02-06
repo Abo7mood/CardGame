@@ -67,6 +67,7 @@ public class PhaseManager : MonoBehaviour
                 PhaseStart();
                 break;
             case Phases.battle:
+                StartCoroutine(StopMovingCards(0.05f, true));
                 PhaseStart();
                 break;
             default:
@@ -131,6 +132,7 @@ public class PhaseManager : MonoBehaviour
         yield return new WaitForSeconds(time);
         for (int i = 0; i < cards.Length; i++)
         {
+            if(!cards[i].isLeader)
             cards[i].CantMove = Stop;
         }
     }

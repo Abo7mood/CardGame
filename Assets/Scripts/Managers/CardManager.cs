@@ -9,6 +9,8 @@ public class CardManager : MonoBehaviour
 
     public Transform[] cardHolderSlots;
 
+    public Transform[] enemyCards;
+
     private Monster[] monsters;
     [Space(15)]
     public CardHolderSlot cardPlayerSlot, cardEnemySlot;
@@ -17,6 +19,7 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] GameObject phaseButton;
 
+    bool battleToggler;
     private void Awake()
     {
         Init();
@@ -113,13 +116,11 @@ public class CardManager : MonoBehaviour
     }
     public void CreateMonster(Transform parent, Transform data)
     {
-
          GameManager.instance.CreateMonster(ref holderSlot(parent).cardTransform,
                 ref card(data).data, holderSlot(parent).MonsterCount, ref cardHandler(data).thisHandler, ref cardHandler(data).thisSlot, cardHandler(data).slotPos); //create monster , what can I said
     }
     private void DeleteMonster(int monsterCount)
     {
-
         Destroy(GameManager.instance.monsterParents[monsterCount].transform.GetChild(0).gameObject);
     }
     public void DeleteCard( GameObject obj)
@@ -132,5 +133,18 @@ public class CardManager : MonoBehaviour
     {    
         GameManager.instance.monsterParents[i].GetComponentInChildren<Monster>().data = card(child(cardHolderSlots[i])).data;
         GameManager.instance.monsterParents[i].GetComponentInChildren<Monster>().Setter();
+    }
+
+    public void BattleToggler()
+    {
+        battleToggler = !battleToggler;
+        for (int i = 0; i < enemyCards.Length; i++)
+        {
+            if (enemyCards[i] == null) continue;
+            enemyCards[i].GetComponent<HealthSystem>().line.enabled = battleToggler;
+            enemyCards[i].GetComponent<HealthSystem>().line.effectColor = enemyCards[i].GetComponent<HealthSystem>().lineColor;
+            enemyCards[i].GetComponent<Card>().battleToggle.SetActive(battleToggler);
+
+        }
     }
 }

@@ -87,7 +87,6 @@ public class GameManager : MonoBehaviour
 
     public override void CreateCard(int amount)
     {
-        Debug.Log("X");
         while (canGenerateCard&&index<amount)
         {
             GameObject newCard= Instantiate(instance.cardPrefab, instance.cardParent.position, Quaternion.identity, instance.cardParent);//create object 

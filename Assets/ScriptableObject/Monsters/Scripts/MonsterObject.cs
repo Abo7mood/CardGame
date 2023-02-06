@@ -14,6 +14,8 @@ public class MonsterObject : ScriptableObject
     public Vector3 spritePos;
 
     public int heal;
+    public int Attack;
+    public int Defense;
 
     public AnimationClip clip;
 

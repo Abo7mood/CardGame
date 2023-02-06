@@ -12,6 +12,7 @@ public class Card : MonoBehaviour
 
     [Space(5)]
     Image image; // the image for the card
+    public GameObject battleToggle;
 
     public bool isLeader { get; set; } = false;
     public bool isFieldLeader { get; set; } = false;
@@ -28,7 +29,7 @@ public class Card : MonoBehaviour
     
     private void Start()
     {
-        DestroyToggles();
+      //  DestroyToggles();
         StartCoroutine(awaitSetter());
     }
     void Setter(string name, Sprite cardImage)

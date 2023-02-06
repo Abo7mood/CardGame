@@ -1,17 +1,17 @@
-
+using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using static CardHandler;
-
 public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
    
     private CardHandler handler;
-
     private Card card;
     public bool isDrawed;
     public GameObject drawToggle, battleToggle;
 
+
+    public bool isLeader=false;
     public bool CantMove;
     private void Awake()
     {
@@ -26,11 +26,21 @@ public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     public void Toggler()
     {
+      
         drawToggle.SetActive(false);
         battleToggle.SetActive(false);
-        if (transform.GetComponentInParent<CardHolderSlot>()==true) return;
-        if (PhaseManager.instance.phases == PhaseManager.Phases.draw) drawToggle.SetActive(true);
-        else if (PhaseManager.instance.phases == PhaseManager.Phases.battle) battleToggle.SetActive(true);
+        if (transform.GetComponentInParent<CardHolderSlot>()==null&& PhaseManager.instance.phases == PhaseManager.Phases.draw) 
+         drawToggle.SetActive(true);
+        else if (PhaseManager.instance.phases == PhaseManager.Phases.battle&& !card.isEnemy)
+        {
+            if (transform.parent.TryGetComponent<CardHolderSlot>(out CardHolderSlot slot) == true)
+            {
+                if(slot.isFront)
+                battleToggle.SetActive(true);
+                
+            }
+          
+        }
         
 
     }

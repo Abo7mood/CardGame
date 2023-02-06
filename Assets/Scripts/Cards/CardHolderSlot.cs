@@ -9,6 +9,9 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
     public bool isLeaderStartSlot;
     public Transform[] cardHolderSlots;
     [SerializeField] ScrollRect rect;
+    [Space(10)]
+    
+    public CardHolderSlot backSlot;
     [Header("Data")]
     public int slotPos;
     [Space(15)]
@@ -63,6 +66,7 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
         {
             StartCoroutine(LeaderBehaviour(0.05f));
         }
+
     }
 
     private void LeaderSlot()
@@ -75,6 +79,8 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
         rect.enabled = true; 
 
         draggableItem.transform.parent = transform;
+        draggableItem.canTrigger = true;
+        dropped.GetComponent<CardSlot>().CantMove = true;
         CardManager.instance.StartTheGame();
         PhaseManager.instance.SwitcherSetter();
 
@@ -95,7 +101,9 @@ public class CardHolderSlot : MonoBehaviour, IDropHandler
         draggableItem.OnDragDelegate -= draggableItem.GetComponent<CardHandler>().Drag;
         draggableItem.OnEndDrag -= draggableItem.GetComponent<CardHandler>().EndDrag;
         draggableItem.gameObject.GetComponent<Card>().isFieldLeader = true;
-
+        draggableItem.canTrigger = true;
+        dropped.GetComponent<CardSlot>().CantMove = true;
+        dropped.GetComponent<CardSlot>().isLeader = true;
     }
 
 }
