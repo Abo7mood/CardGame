@@ -98,6 +98,7 @@ MonoBehaviour:
   isDrawed: 0
   drawToggle: {fileID: 5880325251183340862}
   battleToggle: {fileID: 7589968196130400606}
+  isLeader: 0
   CantMove: 0
 --- !u!114 &3658677570512718215
 MonoBehaviour:
@@ -120,6 +121,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 52cf50466888c654fb30468aca19cc03, type: 2}
   - {fileID: 11400000, guid: 980e6712febf1374b95369235be430a3, type: 2}
   data: {fileID: 0}
+  battleToggle: {fileID: 0}
 --- !u!114 &7611291786429770983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +160,7 @@ MonoBehaviour:
   maxHealth: 100
   line: {fileID: 3222920508493213276}
   lineColor: {r: 0, g: 1, b: 0, a: 1}
+  slot: {fileID: 0}
   cards: []
   thisToggle: 0
 --- !u!114 &3222920508493213276

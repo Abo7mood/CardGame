@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class CardManager : MonoBehaviour
 {
     public static CardManager instance;
@@ -98,7 +98,6 @@ public class CardManager : MonoBehaviour
                 }
             }
            
-
             if (!IsEmptyCardSlot(i) && IsEmptyMonster(i))
             {
                 createMonsterDelegate?.Invoke(cardHolderSlots[i], child(cardHolderSlots[i]));
@@ -119,7 +118,7 @@ public class CardManager : MonoBehaviour
          GameManager.instance.CreateMonster(ref holderSlot(parent).cardTransform,
                 ref card(data).data, holderSlot(parent).MonsterCount, ref cardHandler(data).thisHandler, ref cardHandler(data).thisSlot, cardHandler(data).slotPos); //create monster , what can I said
     }
-    private void DeleteMonster(int monsterCount)
+    public void DeleteMonster(int monsterCount)
     {
         Destroy(GameManager.instance.monsterParents[monsterCount].transform.GetChild(0).gameObject);
     }
@@ -146,5 +145,7 @@ public class CardManager : MonoBehaviour
             enemyCards[i].GetComponent<Card>().battleToggle.SetActive(battleToggler);
 
         }
+        if (LifePointSystem.greenCard!=null)
+        LifePointSystem.greenCard.GetComponent<Outline>().enabled = battleToggler;
     }
 }

@@ -19,11 +19,6 @@ public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         handler = GetComponent<CardHandler>();
     }
 
-    private void Start()
-    {
-        
-    }
-
     public void Toggler()
     {
       
@@ -36,13 +31,9 @@ public class CardSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
             if (transform.parent.TryGetComponent<CardHolderSlot>(out CardHolderSlot slot) == true)
             {
                 if(slot.isFront)
-                battleToggle.SetActive(true);
-                
+                battleToggle.SetActive(true);               
             }
-          
-        }
-        
-
+        }     
     }
 
     public int ReDraw()

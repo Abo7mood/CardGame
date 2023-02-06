@@ -6,6 +6,4 @@ public class BattleToggler : MonoBehaviour
 {
     public cards cards;
 
-    
-
 }

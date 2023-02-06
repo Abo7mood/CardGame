@@ -124,6 +124,7 @@ public class CardHandler : MonoBehaviour
         switch (PhaseManager.instance.phases)
         {
             case PhaseManager.Phases.draw:
+                LeaderAction();
                 break;
             case PhaseManager.Phases.leader:
                 LeaderAction();
@@ -209,7 +210,8 @@ public class CardHandler : MonoBehaviour
     }
     #region Booleans1
     private bool Situation1() => !IsFull(parentAfterDrag) && isPhase(PhaseManager.Phases.main);
-    private bool Situation2() => (IsLeader(parentAfterDrag) && IsFull(parentAfterDrag)) || (isPhase(PhaseManager.Phases.leader) && !IsLeader(parentAfterDrag));
+    private bool Situation2() => (IsLeader(parentAfterDrag) && IsFull(parentAfterDrag)) || (isPhase(PhaseManager.Phases.leader) && !IsLeader(parentAfterDrag) 
+        || (isPhase(PhaseManager.Phases.draw) && !IsLeader(parentAfterDrag)));
     private bool Situation3() => IsFull(parentAfterDrag) && !IsLeader(parentAfterDrag) && IsSlot(parentAfterDrag);
     private bool Situation4() => IsLeader(parentAfterDrag) && IsHand(previousParent) &&
         thisCard.data.Level >= parentAfterDrag.GetChild(0).GetComponent<Card>().data.Level && PhaseManager.instance.canSwitchLeaders;

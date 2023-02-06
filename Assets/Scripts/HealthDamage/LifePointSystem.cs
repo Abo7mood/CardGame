@@ -7,6 +7,8 @@ public class LifePointSystem : MonoBehaviour
 {
     public static LifePointSystem instance;
 
+    public static Card greenCard;
+    public static bool isLeader;
     [SerializeField] TextMeshProUGUI healthText;
     private void Awake()
     {

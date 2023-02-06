@@ -21,6 +21,7 @@ public class PhaseManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI phaseButtonTXT;
 
     [HideInInspector] public bool canSwitchLeaders = true;
+    [HideInInspector] public bool canDraw = true;
 
     public int cardToDrawAmount;
     private void Awake()
@@ -69,6 +70,8 @@ public class PhaseManager : MonoBehaviour
             case Phases.battle:
                 StartCoroutine(StopMovingCards(0.05f, true));
                 PhaseStart();
+                canDraw = true;
+
                 break;
             default:
                 break;
@@ -82,6 +85,8 @@ public class PhaseManager : MonoBehaviour
         for (int i = 0; i < cards.Length; i++)
         {           
                 cards[i].Toggler();
+            
+
         }
     }
     private void DrawCards()

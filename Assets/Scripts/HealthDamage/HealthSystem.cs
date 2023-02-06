@@ -13,7 +13,7 @@ public class HealthSystem : MonoBehaviour
 
     public Color lineColor;
 
-    CardHolderSlot slot;
+   [SerializeField] HolderData slot;
 
     public Card[] cards;
 
@@ -22,20 +22,27 @@ public class HealthSystem : MonoBehaviour
     {
         card = GetComponent<Card>();
     }
-    private void Start()
-    {
-    }
+   
 
     public void TakeDamage()
     {
-        Debug.Log(greenCard()+"-x");
+       
+        if (LifePointSystem.isLeader && PhaseManager.instance.canDraw)
+        {
+            GameManager.instance.CreateCard(LifePointSystem.greenCard.GetComponent<Card>().data.Level);
+            PhaseManager.instance.canDraw = false;
+            Debug.Log("Work");
+
+        }
+
         int damage = DamageAmount();
         maxHealth = card.data.heal;
 
-        int damageAmount = damage - currentHealth;
-        if(damage>0)
+        int damageAmount = damage - maxHealth;
+        Debug.Log(damageAmount);
+        if(damageAmount > 0)
         {
-            if (TryGetComponent<CardHolderSlot>(out CardHolderSlot slot) == true)
+            if (slot != null)
             {
                 if (slot.isLeader)
                 {
@@ -46,36 +53,32 @@ public class HealthSystem : MonoBehaviour
                     CardManager.instance.DeleteCard(gameObject);
                 }
             }
+            Debug.Log("is greater than 0");
+
         }
-
-
-        
-    }
-
-    private Card greenCard()
-    {
-        cards = FindObjectsOfType<Card>();
-        for (int i = 0; i < cards.Length; i++)
-        {
-            if (cards[i].GetComponent<HealthSystem>().thisToggle&& !cards[i].isEnemy)
-            {
-                return cards[i];
-               
-            }
-        }
-        return null;
+       
     }
 
     private int DamageAmount()
     {
-        int damage1 = greenCard().GetComponent<HealthSystem>().maxHealth;
+        int damage1 = LifePointSystem.greenCard.GetComponent<Card>().data.Attack;
         int damage2;
 
-        if (greenCard().GetComponentInParent<CardHolderSlot>().backSlot.GetComponent<HealthSystem>() == null) damage2 = 0;
-        else damage2 = greenCard().GetComponentInParent<CardHolderSlot>().backSlot.GetComponent<HealthSystem>().maxHealth;
+        if (LifePointSystem.greenCard.GetComponentInParent<CardHolderSlot>().backSlot.GetComponentInChildren<Card>() == null) damage2 = 0;
+        else damage2 = LifePointSystem.greenCard.GetComponentInParent<CardHolderSlot>().backSlot.GetComponentInChildren<Card>().data.Attack;
 
         return damage1 + damage2;
     }
-    public void BattleToggler() => CardManager.instance.BattleToggler();
+    public void BattleToggler() {
+        
+        CardManager.instance.BattleToggler();
+        if (!GetComponent<Card>().isEnemy)
+        {
+            LifePointSystem.greenCard = gameObject.GetComponent<Card>();
+            LifePointSystem.isLeader = gameObject.GetComponentInParent<CardHolderSlot>().isLeader;
+
+            Debug.Log(LifePointSystem.isLeader + "X");
+        }
+    } 
     public void ThisToggle(bool on) => thisToggle = on;
 }
