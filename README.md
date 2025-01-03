@@ -1,6 +1,7 @@
 # Card Game Project 🃏
 
 Welcome to the **Card Game Project**! 🎮 This is an exciting card battle game still under development, inspired by classic card games like **Yu-Gi-Oh!**. It features **boss battles** 💥, **unique cards** ⚡, and **strategic gameplay** with exciting mechanics!
+![image](https://github.com/user-attachments/assets/6cd85825-8f9d-4133-a838-b67a55b86db2)
 
 ## 🌟 Key Features 🌟
 
@@ -13,15 +14,13 @@ Welcome to the **Card Game Project**! 🎮 This is an exciting card battle game 
 
 ## 🎮 Gameplay Details 🎮
 
-- **Card Battle Layout**: The game uses a **card view** similar to the **Yu-Gi-Oh!** style, where each player can summon cards to the field and engage in epic battles with cards representing creatures, spells, and special abilities.
-  
-- **Battling Bosses**: Each **boss** has its own unique deck and abilities, making each battle feel fresh and challenging. Defeat them to unlock new **cards** and **gameplay features**!
-
-- **Card Effects**: Cards come with different **effects** that can either damage enemies, buff your cards, or hinder your opponent. Some cards have **combo effects** 🔄 that require careful planning.
+- **Operating System**: Mobile 📱
+- **Controls**: Touch 📱
+- **Game Type**: 2D Game 🌍
 
 ## 🔧 Technologies Used 🔧
 
-- **Unity 3D** 🎮
+- **Unity 2D** 🎮
 - **C# Programming Language** 💻
 - **Custom Card Engine** 🃏
 - **UI/UX Design** 🎨
@@ -48,3 +47,16 @@ Welcome to the **Card Game Project**! 🎮 This is an exciting card battle game 
 - **Modify and Publish**: You are free to modify the game and publish it wherever you want.
 - **Ready to Play**: The game is ready to play out of the box.
 - **Version**: 2021.3.16f
+
+# Story of this game 🏚️
+
+This game was one of the most memorable projects in my freelancing journey! 💖 I worked with one of my **best clients** 🥇, who shared a passion for card games like **Yu-Gi-Oh!** 🎮🀄️. Together, we dreamed of creating a game that would bring back the nostalgia of strategic card battles while introducing new mechanics to excite modern players 🔥.
+
+However, my journey with this project took an unexpected turn 🎪. As I was nearing the final stages of development ⌛, I received an offer for a **new venture** 🌐✨—a top-secret opportunity that I couldn’t refuse 🎥🚫 (no spoilers!). This meant I had to leave the project incomplete ❌, a decision that was as bittersweet as it was thrilling.
+
+Even though I couldn’t finish this game, the collaboration was a journey of creativity, learning, and camaraderie 💞. It remains a significant chapter in my story, filled with lessons and unforgettable moments 🕊️.
+
+
+# 🎮 Demo 🎮
+
+Unfortunately, there is no demo available for this project as it was tailored specifically for the client's requirements.
