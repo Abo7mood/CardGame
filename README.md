@@ -3,6 +3,15 @@
 Welcome to the **Card Game Project**! 🎮 This is an exciting card battle game still under development, inspired by classic card games like **Yu-Gi-Oh!**. It features **boss battles** 💥, **unique cards** ⚡, and **strategic gameplay** with exciting mechanics!
 ![image](https://github.com/user-attachments/assets/6cd85825-8f9d-4133-a838-b67a55b86db2)
 
+# Solo Project 🔥🔥🔥
+this project being made solo by me
+
+## 🎮 Gameplay Details 🎮
+
+- **Operating System**: Mobile 📱
+- **Controls**: Touch 📱
+- **Game Type**: 2D Game 🌍
+- 
 ## 🌟 Key Features 🌟
 
 - **Card Battle Mechanics** 🃏: Experience strategic card-based gameplay where you summon powerful cards and defeat enemies with tactics and deck-building skills.
@@ -12,11 +21,7 @@ Welcome to the **Card Game Project**! 🎮 This is an exciting card battle game 
 - **Deck Building** ⚒️: Customize your deck for different playstyles. Choose between offensive, defensive, or hybrid decks to suit your strategy.
 - **Under Development** ⚙️: The game is currently being developed, and we’re adding more features and polish with each update.
 
-## 🎮 Gameplay Details 🎮
 
-- **Operating System**: Mobile 📱
-- **Controls**: Touch 📱
-- **Game Type**: 2D Game 🌍
 
 ## 🔧 Technologies Used 🔧
 
